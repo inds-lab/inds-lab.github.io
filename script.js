@@ -29,44 +29,44 @@ const content = {
     },
     language: '中文',
     footer: [
-      'Contact: Building F5, Science and Technology Campus, Beijing, China.',
+      'Contact: School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China.',
       '© 2026 Intelligent Networking and Distributed Systems Lab. Last updated on June 10, 2026.'
     ],
     home: {
       title: 'Welcome to the Intelligent Networking and Distributed Systems Lab!',
       intro: [
-        'Our group studies efficient, reliable, and scalable computer systems. We focus on storage software, cloud infrastructure, programmable networks, and emerging hardware that changes how data is stored, moved, and protected.',
-        'The lab publishes in leading systems venues and works closely with students, researchers, and industry partners to turn practical problems into rigorous systems research.'
+        'Our group studies intelligent networking, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
+        'The lab is led by Prof. Deke Guo at the School of Computer Science and Engineering, Sun Yat-sen University, and welcomes motivated students to explore high-impact systems research.'
       ],
       captions: [
-        'Research work, prototypes, and publication highlights',
-        'Students and faculty building systems together',
+        'Intelligent networking and distributed systems research',
+        'Students and faculty building networked systems together',
         'Seminars, workshops, and collaborative discussions',
-        'From hardware trends to deployable system designs'
+        'From edge computing to large model system optimization'
       ],
       notice: 'We are looking for passionate PhD students, postdocs, and master students to join the team ',
       noticeLink: '(more info)',
       newsTitle: 'News',
       news: [
-        ['Feb 24, 2026.', 'One paper earns a distinguished artifact award at FAST\'26.'],
-        ['Jan 31, 2026.', 'One paper has been accepted to EuroSys\'26.'],
-        ['Dec 8, 2025.', 'Two papers have been accepted to FAST\'26.'],
-        ['Oct 21, 2025.', 'One paper has been accepted to ICDE\'26.'],
-        ['Sep 27, 2025.', 'One paper has been accepted to SoCC\'25.'],
-        ['Aug 24, 2025.', 'One paper has been accepted to SIGMOD\'26.']
+        ['2026.', 'We welcome motivated PhD, master, and undergraduate students interested in intelligent networking and distributed systems.'],
+        ['2023.', 'Prof. Deke Guo received the CCF Natural Science Award, ranked first.'],
+        ['2023.', 'Prof. Deke Guo received the First Prize of the Invention and Entrepreneurship Award Innovation Award, ranked first.'],
+        ['2021.', 'Prof. Deke Guo received the Natural Science Second Prize of the Chinese Institute of Electronics, ranked first.'],
+        ['2020.', 'Prof. Deke Guo received the CCF-IEEE CS Young Scientist Award.'],
+        ['2019.', 'Prof. Deke Guo received the IEEE ICNP Best Paper Award.']
       ],
       moreNews: '... see all News',
       researchTitle: 'Research',
       researchItems: [
-        'Persistent memory and next-generation storage',
-        'Cloud-native data systems',
-        'Programmable network acceleration',
-        'Reliable systems for large-scale services'
+        'Large model system optimization',
+        'Computer networks',
+        'Distributed computing systems and edge computing',
+        'Computing power networks'
       ]
     },
     team: {
       title: 'Team',
-      lead: 'Faculty, graduate students, engineers, and collaborators work together through weekly seminars, reading groups, and project meetings.',
+      lead: 'Faculty, graduate students, and collaborators work together on computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
       faculty: 'Faculty',
       postdocs: 'Postdoctoral Fellows',
       phd: 'PhD Students',
@@ -77,16 +77,16 @@ const content = {
       alumniColumns: ['Name', 'Degree', 'Year', 'After Graduation'],
       people: [
         {
-          id: 'lin-chen',
+          id: 'deke-guo',
           group: 'faculty',
-          name: 'Prof. Lin Chen',
+          name: 'Prof. Deke Guo',
           role: 'Professor',
-          email: 'linchen@bluesys.example',
+          email: 'guodk@mail.sysu.edu.cn',
           photo: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=480&q=80',
-          summary: 'Storage systems, cloud infrastructure, and reliable software.',
-          bio: 'Lin Chen leads projects on reliable storage systems and cloud infrastructure, with an emphasis on deployable prototypes and reproducible evaluation.',
-          interests: ['Storage systems', 'Cloud infrastructure', 'Reliability', 'Persistent memory'],
-          work: ['Fast and Reliable Storage for Cloud-Native Services', 'Elastic Data Placement in Large-Scale Persistent Memory Systems']
+          summary: 'Computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
+          bio: 'Deke Guo is a professor and doctoral supervisor at Sun Yat-sen University. His research focuses on computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
+          interests: ['Large model system optimization', 'Computer networks', 'Distributed computing systems', 'Edge computing', 'Computing power networks'],
+          work: ['IEEE ICNP 2019 Best Paper', 'More than 300 academic papers', 'More than 70 granted invention patents']
         },
         {
           id: 'yao-wang',
@@ -98,7 +98,7 @@ const content = {
           summary: 'Data systems, programmable networks, and hardware-software co-design.',
           bio: 'Yao Wang studies how programmable hardware can reshape data systems, including network acceleration and hardware-aware query execution.',
           interests: ['Data systems', 'Programmable networks', 'Smart NICs', 'Hardware-software co-design'],
-          work: ['Programmable Network Support for Distributed Storage', 'Practical Indexing for Hardware-Accelerated Data Systems']
+          work: ['Programmable Network Support for Edge Computing', 'Efficient Scheduling for Computing Power Networks']
         },
         {
           id: 'hao-lan',
@@ -109,7 +109,7 @@ const content = {
           photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=480&q=80',
           summary: 'Start in 2024.',
           bio: 'Hao Lan works on fault-tolerant cloud storage and fast recovery mechanisms for distributed services.',
-          interests: ['Fault tolerance', 'Distributed storage', 'Recovery protocols'],
+          interests: ['Fault tolerance', 'Distributed systems', 'Recovery protocols'],
           work: ['Low-Latency Recovery for Replicated Storage']
         },
         {
@@ -120,9 +120,9 @@ const content = {
           email: 'qingzhao@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=480&q=80',
           summary: 'Start in 2025.',
-          bio: 'Qing Zhao focuses on persistent memory data structures and consistency models for emerging hardware.',
-          interests: ['Persistent memory', 'Consistency', 'Data structures'],
-          work: ['Persistent Indexing for Mixed Workloads']
+          bio: 'Qing Zhao focuses on system optimization for large model training and inference.',
+          interests: ['Large model systems', 'Inference optimization', 'Resource scheduling'],
+          work: ['Efficient Runtime Support for Large Model Inference']
         },
         {
           id: 'hao-li',
@@ -144,9 +144,9 @@ const content = {
           email: 'runhuazhang@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=480&q=80',
           summary: 'Ph.D. Start in 2023.',
-          bio: 'Runhua works on data placement, scheduling, and resource isolation for large memory and storage clusters.',
-          interests: ['Data placement', 'Scheduling', 'Resource isolation'],
-          work: ['Elastic Data Placement in Large-Scale Persistent Memory Systems']
+          bio: 'Runhua works on resource orchestration and scheduling in computing power networks.',
+          interests: ['Computing power networks', 'Resource orchestration', 'Scheduling'],
+          work: ['Resource Scheduling for Computing Power Networks']
         },
         {
           id: 'junru-liu',
@@ -156,9 +156,9 @@ const content = {
           email: 'junruliu@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=480&q=80',
           summary: 'Ph.D. Start in 2024.',
-          bio: 'Junru explores programmable network support for distributed storage and service-to-service communication.',
-          interests: ['Programmable switches', 'Distributed storage', 'Network systems'],
-          work: ['Programmable Network Support for Distributed Storage']
+          bio: 'Junru explores programmable network support for edge services and service-to-service communication.',
+          interests: ['Programmable switches', 'Edge services', 'Network systems'],
+          work: ['Programmable Network Support for Edge Services']
         },
         {
           id: 'wenhao-xu',
@@ -168,9 +168,9 @@ const content = {
           email: 'wenhaoxu@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=480&q=80',
           summary: 'Master. Start in 2024.',
-          bio: 'Wenhao builds tracing and benchmarking tools for cloud storage systems.',
-          interests: ['Benchmarking', 'Observability', 'Cloud storage'],
-          work: ['Trace-Guided Benchmarking for Storage Services']
+          bio: 'Wenhao builds measurement and benchmarking tools for edge computing systems.',
+          interests: ['Benchmarking', 'Observability', 'Edge computing'],
+          work: ['Trace-Guided Benchmarking for Edge Services']
         },
         {
           id: 'haodi-sun',
@@ -180,9 +180,9 @@ const content = {
           email: 'haodisun@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=480&q=80',
           summary: 'Master. Start in 2025.',
-          bio: 'Haodi studies indexing and caching techniques for hardware-accelerated data systems.',
+          bio: 'Haodi studies caching and scheduling techniques for large model serving systems.',
           interests: ['Indexing', 'Caching', 'Hardware acceleration'],
-          work: ['Practical Indexing for Hardware-Accelerated Data Systems']
+          work: ['Caching and Scheduling for Large Model Serving']
         },
         {
           id: 'yue-chen',
@@ -204,9 +204,9 @@ const content = {
           email: 'guangyan@alumni.example',
           photo: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=480&q=80',
           summary: 'Graduated in 2021, Tsinghua University.',
-          bio: 'Guangyan worked on persistent storage systems and now continues research in academic infrastructure.',
-          interests: ['Persistent storage', 'File systems', 'Systems evaluation'],
-          work: ['Durable Metadata for Cloud Storage']
+          bio: 'Guangyan worked on networked distributed systems and now continues research in academic infrastructure.',
+          interests: ['Computer networks', 'Distributed systems', 'Systems evaluation'],
+          work: ['Reliable Service Coordination in Distributed Networks']
         },
         {
           id: 'mingqiang-li',
@@ -216,8 +216,8 @@ const content = {
           email: 'mingqiang@alumni.example',
           photo: 'https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?auto=format&fit=crop&w=480&q=80',
           summary: 'Graduated in 2022, Huawei.',
-          bio: 'Mingqiang studied large-scale distributed storage and joined industry after graduation.',
-          interests: ['Distributed storage', 'Cloud platforms', 'Performance'],
+          bio: 'Mingqiang studied large-scale distributed systems and joined industry after graduation.',
+          interests: ['Distributed systems', 'Cloud platforms', 'Performance'],
           work: ['Scalable Replication for Cloud Storage']
         },
         {
@@ -246,35 +246,35 @@ const content = {
     },
     publications: {
       title: 'Publications',
-      lead: 'Selected papers from the lab in systems, storage, databases, and cloud infrastructure.',
+      lead: 'Selected research directions and publication resources in networking, distributed systems, edge computing, computing power networks, and large model systems.',
       papers: [
-        ['Fast and Reliable Storage for Cloud-Native Services', 'FAST\'26. Hao Li, Qing Zhao, Lin Chen.'],
-        ['Elastic Data Placement in Large-Scale Persistent Memory Systems', 'EuroSys\'26. Runhua Zhang, Yao Wang, Lin Chen.'],
-        ['Programmable Network Support for Distributed Storage', 'SoCC\'25. Junru Liu, Wenhao Xu, Yao Wang.'],
-        ['Practical Indexing for Hardware-Accelerated Data Systems', 'SIGMOD\'25. Haodi Sun, Qing Zhao, Lin Chen.']
+        ['Publication List on DBLP', 'External resource. Deke Guo.'],
+        ['Google Scholar Profile', 'External resource. Deke Guo.'],
+        ['Research on Computing Power Networks', 'Networking and distributed systems.'],
+        ['Research on Large Model System Optimization', 'Systems for efficient AI workloads.']
       ]
     },
     research: {
       title: 'Research',
-      lead: 'We build practical systems around new storage media, cloud workloads, programmable networks, and reliability requirements.',
+      lead: 'We study intelligent networking and distributed systems for future computing infrastructures, with emphasis on networks, edge computing, computing power networks, and large model systems.',
       topics: [
-        ['Persistent Memory', 'Data structures, recovery protocols, and system software for next-generation storage media.'],
-        ['Cloud Data Systems', 'Elastic storage and query infrastructure for services that must scale predictably.'],
-        ['Network Acceleration', 'Programmable switches, smart NICs, and fast paths for distributed storage traffic.'],
-        ['Reliable Infrastructure', 'Fault tolerance, observability, and performance isolation for large-scale systems.']
+        ['Large Model System Optimization', 'System support for efficient training, inference, scheduling, and deployment of large models.'],
+        ['Computer Networks', 'Network architectures, protocols, and intelligent mechanisms for high-performance communication.'],
+        ['Distributed Computing and Edge Computing', 'Distributed systems and edge infrastructures that bring computing closer to data and users.'],
+        ['Computing Power Networks', 'Resource orchestration and networked computing infrastructure for collaborative computing services.']
       ]
     },
     join: {
       title: 'Join Us',
-      lead: 'We welcome students and collaborators who enjoy building real systems and asking careful research questions about performance, reliability, and scale.',
+      lead: 'We welcome motivated undergraduate, master, and PhD students interested in computer networks, distributed systems, edge computing, computing power networks, and large model systems.',
       openTitle: 'Open Positions',
       positions: [
-        'PhD students interested in storage systems, cloud infrastructure, and distributed systems.',
+        'PhD students interested in computer networks, distributed systems, edge computing, and large model systems.',
         'Master students looking for hands-on systems research projects.',
-        'Postdocs and visiting researchers with strong systems or database backgrounds.'
+        'Outstanding undergraduate students who want to join research projects early.'
       ],
       applyTitle: 'How to Apply',
-      apply: 'Send your CV, transcript, and a short note about your research interests to contact@bluesys.example.'
+      apply: 'Send your CV, transcript, and a short note about your research interests to guodk@mail.sysu.edu.cn.'
     }
   },
   zh: {
@@ -289,44 +289,44 @@ const content = {
     },
     language: 'English',
     footer: [
-      '联系方式：北京市，科技园 F5 楼。',
+      '联系方式：广州市番禺区大学城中山大学计算机学院。',
       '© 2026 智能网络与分布式系统实验室。最后更新：2026 年 6 月 10 日。'
     ],
     home: {
       title: '欢迎来到智能网络与分布式系统实验室！',
       intro: [
-        '我们关注高效、可靠、可扩展的计算机系统，研究方向包括存储软件、云基础设施、可编程网络，以及会改变数据存储、传输和保护方式的新型硬件。',
-        '实验室在系统领域的重要会议上发表研究成果，并与学生、研究者和产业合作伙伴一起，将真实问题转化为严谨的系统研究。'
+        '我们围绕智能网络与分布式系统开展研究，重点关注计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
+        '实验室依托中山大学计算机学院，由郭得科教授指导，欢迎对系统与网络研究有热情的同学加入。'
       ],
       captions: [
-        '研究成果、系统原型与论文亮点',
-        '学生与教师共同构建真实系统',
+        '智能网络与分布式系统研究',
+        '师生共同构建网络化系统',
         '组会、研讨会与合作讨论',
-        '从硬件趋势到可落地的系统设计'
+        '从边缘计算到大模型系统优化'
       ],
       notice: '我们正在招收对系统研究有热情的博士生、博士后和硕士生加入团队',
       noticeLink: '（更多信息）',
       newsTitle: '新闻',
       news: [
-        ['2026 年 2 月 24 日。', '一篇论文获得 FAST\'26 杰出 Artifact 奖。'],
-        ['2026 年 1 月 31 日。', '一篇论文被 EuroSys\'26 录用。'],
-        ['2025 年 12 月 8 日。', '两篇论文被 FAST\'26 录用。'],
-        ['2025 年 10 月 21 日。', '一篇论文被 ICDE\'26 录用。'],
-        ['2025 年 9 月 27 日。', '一篇论文被 SoCC\'25 录用。'],
-        ['2025 年 8 月 24 日。', '一篇论文被 SIGMOD\'26 录用。']
+        ['2026 年。', '欢迎对智能网络与分布式系统感兴趣的博士生、硕士生和优秀本科生联系加入。'],
+        ['2023 年。', '郭得科教授获 CCF 自然科学二等奖，排名第 1。'],
+        ['2023 年。', '郭得科教授获中国发明协会“发明创业奖创新奖”一等奖，排名第 1。'],
+        ['2021 年。', '郭得科教授获中国电子学会自然科学二等奖，排名第 1。'],
+        ['2020 年。', '郭得科教授获 CCF-IEEE CS 青年科学家奖。'],
+        ['2019 年。', '郭得科教授获得 IEEE ICNP 最佳论文奖。']
       ],
       moreNews: '... 查看全部新闻',
       researchTitle: '研究方向',
       researchItems: [
-        '持久内存与新型存储系统',
-        '云原生数据系统',
-        '可编程网络加速',
-        '大规模服务可靠性'
+        '大模型系统优化',
+        '计算机网络',
+        '分布式计算系统与边缘计算',
+        '算力网'
       ]
     },
     team: {
       title: '团队',
-      lead: '教师、研究生、工程师和合作伙伴通过每周组会、论文阅读和项目讨论共同推进系统研究。',
+      lead: '教师、研究生和合作伙伴围绕计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化开展研究。',
       faculty: '教师',
       postdocs: '博士后',
       phd: '博士生',
@@ -337,16 +337,16 @@ const content = {
       alumniColumns: ['姓名', '学位', '毕业年份', '毕业去向'],
       people: [
         {
-          id: 'lin-chen',
+          id: 'deke-guo',
           group: 'faculty',
-          name: '陈林 教授',
+          name: '郭得科 教授',
           role: '教授',
-          email: 'linchen@bluesys.example',
+          email: 'guodk@mail.sysu.edu.cn',
           photo: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=480&q=80',
-          summary: '研究方向包括存储系统、云基础设施和可靠软件。',
-          bio: '陈林教授负责可靠存储系统与云基础设施方向的研究，强调可部署原型和可复现实验评估。',
-          interests: ['存储系统', '云基础设施', '可靠性', '持久内存'],
-          work: ['面向云原生服务的快速可靠存储系统', '大规模持久内存系统中的弹性数据放置']
+          summary: '研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
+          bio: '郭得科教授是中山大学计算机学院教授、博士生导师，主要研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
+          interests: ['大模型系统优化', '计算机网络', '分布式计算系统', '边缘计算', '算力网'],
+          work: ['IEEE ICNP 2019 最佳论文', '发表中英文学术论文 300 余篇', '获得中国和美国授权发明专利 70 余项']
         },
         {
           id: 'yao-wang',
@@ -358,7 +358,7 @@ const content = {
           summary: '研究方向包括数据系统、可编程网络和软硬件协同设计。',
           bio: '王尧教授关注可编程硬件如何重塑数据系统，包括网络加速和硬件感知的查询执行。',
           interests: ['数据系统', '可编程网络', '智能网卡', '软硬件协同设计'],
-          work: ['面向分布式存储的可编程网络支持', '面向硬件加速数据系统的实用索引技术']
+          work: ['面向边缘计算的可编程网络支持', '面向算力网的高效调度机制']
         },
         {
           id: 'hao-lan',
@@ -368,8 +368,8 @@ const content = {
           email: 'haolan@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=480&q=80',
           summary: '2024 年加入。',
-          bio: '蓝昊博士研究容错云存储和分布式服务的快速恢复机制。',
-          interests: ['容错', '分布式存储', '恢复协议'],
+          bio: '蓝昊博士研究分布式服务的容错和快速恢复机制。',
+          interests: ['容错', '分布式系统', '恢复协议'],
           work: ['面向复制存储的低延迟恢复机制']
         },
         {
@@ -380,9 +380,9 @@ const content = {
           email: 'qingzhao@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=480&q=80',
           summary: '2025 年加入。',
-          bio: '赵晴博士关注持久内存数据结构和新型硬件上的一致性模型。',
-          interests: ['持久内存', '一致性', '数据结构'],
-          work: ['面向混合负载的持久化索引技术']
+          bio: '赵晴博士关注大模型训练与推理中的系统优化技术。',
+          interests: ['大模型系统', '推理优化', '资源调度'],
+          work: ['面向大模型推理的高效运行时支持']
         },
         {
           id: 'hao-li',
@@ -394,7 +394,7 @@ const content = {
           summary: '博士生，2022 年入学。',
           bio: '李昊研究面向云原生服务的存储引擎，并开发支持高吞吐事务负载的系统原型。',
           interests: ['存储引擎', '云原生系统', '事务处理'],
-          work: ['面向云原生服务的快速可靠存储系统']
+          work: ['面向云原生服务的高可靠分布式系统']
         },
         {
           id: 'runhua-zhang',
@@ -404,9 +404,9 @@ const content = {
           email: 'runhuazhang@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=480&q=80',
           summary: '博士生，2023 年入学。',
-          bio: '张润华研究大内存与存储集群中的数据放置、调度和资源隔离。',
-          interests: ['数据放置', '调度', '资源隔离'],
-          work: ['大规模持久内存系统中的弹性数据放置']
+          bio: '张润华研究算力网中的资源编排与调度。',
+          interests: ['算力网', '资源编排', '调度'],
+          work: ['面向算力网的资源调度机制']
         },
         {
           id: 'junru-liu',
@@ -416,9 +416,9 @@ const content = {
           email: 'junruliu@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=480&q=80',
           summary: '博士生，2024 年入学。',
-          bio: '刘君如探索可编程网络对分布式存储和服务间通信的支持。',
-          interests: ['可编程交换机', '分布式存储', '网络系统'],
-          work: ['面向分布式存储的可编程网络支持']
+          bio: '刘君如探索可编程网络对边缘服务和服务间通信的支持。',
+          interests: ['可编程交换机', '边缘服务', '网络系统'],
+          work: ['面向边缘服务的可编程网络支持']
         },
         {
           id: 'wenhao-xu',
@@ -428,9 +428,9 @@ const content = {
           email: 'wenhaoxu@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=480&q=80',
           summary: '硕士生，2024 年入学。',
-          bio: '徐文浩构建面向云存储系统的追踪和基准测试工具。',
-          interests: ['基准测试', '可观测性', '云存储'],
-          work: ['面向存储服务的 Trace 驱动基准测试']
+          bio: '徐文浩构建面向边缘计算系统的测量和基准测试工具。',
+          interests: ['基准测试', '可观测性', '边缘计算'],
+          work: ['面向边缘服务的 Trace 驱动基准测试']
         },
         {
           id: 'haodi-sun',
@@ -464,9 +464,9 @@ const content = {
           email: 'guangyan@alumni.example',
           photo: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=480&q=80',
           summary: '2021 年毕业，清华大学。',
-          bio: '张光彦博士曾研究持久化存储系统，目前继续从事学术基础设施方向研究。',
-          interests: ['持久化存储', '文件系统', '系统评测'],
-          work: ['面向云存储的持久元数据管理']
+          bio: '张光彦博士曾研究网络化分布式系统，目前继续从事学术基础设施方向研究。',
+          interests: ['计算机网络', '分布式系统', '系统评测'],
+          work: ['分布式网络中的可靠服务协同']
         },
         {
           id: 'mingqiang-li',
@@ -476,9 +476,9 @@ const content = {
           email: 'mingqiang@alumni.example',
           photo: 'https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?auto=format&fit=crop&w=480&q=80',
           summary: '2022 年毕业，华为。',
-          bio: '李明强博士曾研究大规模分布式存储，毕业后进入产业界。',
-          interests: ['分布式存储', '云平台', '性能优化'],
-          work: ['面向云存储的可扩展复制机制']
+          bio: '李明强博士曾研究大规模分布式系统，毕业后进入产业界。',
+          interests: ['分布式系统', '云平台', '性能优化'],
+          work: ['面向云平台的可扩展协同机制']
         },
         {
           id: 'youmin-chen',
@@ -506,35 +506,35 @@ const content = {
     },
     publications: {
       title: '论文发表',
-      lead: '实验室近期在系统、存储、数据库和云基础设施方向发表的代表性论文。',
+      lead: '实验室围绕网络、分布式系统、边缘计算、算力网和大模型系统开展研究，可通过 DBLP 与 Google Scholar 查看论文成果。',
       papers: [
-        ['面向云原生服务的快速可靠存储系统', 'FAST\'26。李昊、赵晴、陈林。'],
-        ['大规模持久内存系统中的弹性数据放置', 'EuroSys\'26。张润华、王尧、陈林。'],
-        ['面向分布式存储的可编程网络支持', 'SoCC\'25。刘君如、徐文浩、王尧。'],
-        ['面向硬件加速数据系统的实用索引技术', 'SIGMOD\'25。孙昊迪、赵晴、陈林。']
+        ['DBLP 论文列表', '外部资源。郭得科。'],
+        ['Google Scholar 主页', '外部资源。郭得科。'],
+        ['算力网相关研究', '网络与分布式系统方向。'],
+        ['大模型系统优化研究', '面向高效 AI 工作负载的系统研究。']
       ]
     },
     research: {
       title: '研究方向',
-      lead: '我们围绕新型存储介质、云工作负载、可编程网络和可靠性需求构建实用系统。',
+      lead: '我们面向未来计算基础设施开展智能网络与分布式系统研究，重点关注网络、边缘计算、算力网和大模型系统。',
       topics: [
-        ['持久内存', '面向新型存储介质的数据结构、恢复协议和系统软件。'],
-        ['云数据系统', '面向可预测扩展的弹性存储与查询基础设施。'],
-        ['网络加速', '使用可编程交换机、智能网卡和快速路径优化分布式存储流量。'],
-        ['可靠基础设施', '面向大规模系统的容错、可观测性和性能隔离。']
+        ['大模型系统优化', '研究大模型训练、推理、调度和部署中的系统支撑技术。'],
+        ['计算机网络', '研究高性能通信所需的网络架构、协议和智能机制。'],
+        ['分布式计算系统与边缘计算', '研究靠近数据和用户的分布式系统与边缘基础设施。'],
+        ['算力网', '研究面向协同计算服务的资源编排与网络化计算基础设施。']
       ]
     },
     join: {
       title: '加入我们',
-      lead: '我们欢迎喜欢构建真实系统，并愿意深入思考性能、可靠性和规模问题的学生与合作伙伴。',
+      lead: '欢迎对计算机网络、分布式系统、边缘计算、算力网和大模型系统感兴趣的本科生、硕士生和博士生加入。',
       openTitle: '开放名额',
       positions: [
-        '对存储系统、云基础设施和分布式系统感兴趣的博士生。',
+        '对计算机网络、分布式系统、边缘计算和大模型系统感兴趣的博士生。',
         '希望参与系统研究项目的硕士生。',
-        '具有系统或数据库背景的博士后和访问学者。'
+        '欢迎优秀本科生提前参与科研训练。'
       ],
       applyTitle: '申请方式',
-      apply: '请将简历、成绩单和一段简短的研究兴趣说明发送至 contact@bluesys.example。'
+      apply: '请将简历、成绩单和一段简短的研究兴趣说明发送至 guodk@mail.sysu.edu.cn。'
     }
   }
 };
