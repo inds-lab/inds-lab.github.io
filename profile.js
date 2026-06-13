@@ -1,6 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 const profileId = params.get('id') || 'deke-guo';
 let language = params.get('lang') || localStorage.getItem('site-language') || 'en';
+const avatarPlaceholder = 'assets/avatar-placeholder.svg';
 
 const people = {
   en: {
@@ -100,7 +101,7 @@ function render() {
     link.textContent = copy.nav[link.dataset.profileNav];
   });
 
-  document.querySelector('#profile-photo').src = person.photo;
+  document.querySelector('#profile-photo').src = avatarPlaceholder;
   document.querySelector('#profile-photo').alt = person.name;
   document.querySelector('#profile-name').textContent = person.name;
   document.querySelector('#profile-role').textContent = person.role;

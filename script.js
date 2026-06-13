@@ -7,6 +7,7 @@ const navLinks = document.querySelector('.nav-links');
 const viewLinks = Array.from(document.querySelectorAll('[data-view]'));
 const brandLink = document.querySelector('.brand');
 const languageToggle = document.querySelector('#language-toggle');
+const avatarPlaceholder = 'assets/avatar-placeholder.svg';
 const views = Object.fromEntries(
   viewLinks.map((link) => [link.dataset.view, document.querySelector(`#${link.dataset.view}-view`)])
 );
@@ -595,7 +596,7 @@ function renderTeam(people) {
     card.dataset.profile = person.id;
     card.innerHTML = isFaculty
       ? `
-        <img src="${person.photo}" alt="${person.name}">
+        <img src="${avatarPlaceholder}" alt="${person.name}">
         <div>
           <h3>${person.name}</h3>
           <p>${person.role}</p>
@@ -603,7 +604,7 @@ function renderTeam(people) {
         </div>
       `
       : `
-        <img src="${person.photo}" alt="${person.name}">
+        <img src="${avatarPlaceholder}" alt="${person.name}">
         <h3>${person.name}</h3>
         <p>${person.summary}</p>
       `;
