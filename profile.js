@@ -2,6 +2,8 @@ const params = new URLSearchParams(window.location.search);
 const profileId = params.get('id') || 'deke-guo';
 let language = params.get('lang') || localStorage.getItem('site-language') || 'en';
 const avatarPlaceholder = 'assets/avatar-placeholder.svg';
+const guoPhoto = 'https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2025-07-18_195253_005.png?itok=i9BbsCOB';
+const quanPhoto = 'https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/quangc_0.png?itok=Q-V1FDME';
 
 const people = {
   en: {
@@ -21,8 +23,8 @@ const people = {
       '© 2026 Intelligent Networking and Distributed Systems Lab. Last updated on June 10, 2026.'
     ],
     list: [
-      ['deke-guo', 'Prof. Deke Guo', 'Professor, Doctoral Supervisor', 'guodk@mail.sysu.edu.cn', 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=480&q=80', 'Deke Guo is a professor and doctoral supervisor at the School of Computer Science and Engineering, Sun Yat-sen University. His research focuses on computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.', ['Large model system optimization', 'Computer networks', 'Distributed computing systems', 'Edge computing', 'Computing power networks'], ['IEEE ICNP 2019 Best Paper', 'More than 300 academic papers', 'More than 70 granted invention patents']],
-      ['yao-wang', 'Prof. Yao Wang', 'Associate Professor', 'yaowang@bluesys.example', 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=480&q=80', 'Yao Wang studies how programmable hardware can reshape data systems, including network acceleration and hardware-aware query execution.', ['Data systems', 'Programmable networks', 'Smart NICs', 'Hardware-software co-design'], ['Programmable Network Support for Edge Computing', 'Efficient Scheduling for Computing Power Networks']],
+      ['deke-guo', 'Prof. Deke Guo', 'Professor, Doctoral Supervisor', 'guodk@mail.sysu.edu.cn', guoPhoto, 'Deke Guo is a professor and doctoral supervisor at the School of Computer Science and Engineering, Sun Yat-sen University. His research focuses on computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.', ['Large model system optimization', 'Computer networks', 'Distributed computing systems', 'Edge computing', 'Computing power networks'], ['IEEE ICNP 2019 Best Paper', 'More than 300 academic papers', 'More than 70 granted invention patents']],
+      ['guocong-quan', 'Prof. Guocong Quan', 'Associate Professor, Doctoral Supervisor', 'quangc@mail.sysu.edu.cn', quanPhoto, 'Guocong Quan is an associate professor and doctoral supervisor at Sun Yat-sen University. His research focuses on efficient distributed AI systems and algorithms, including large model inference, distributed resource management, reinforcement learning, and online learning.', ['Efficient large model inference', 'Distributed resource management', 'Reinforcement learning', 'Online learning'], ['IEEE INFOCOM 2019 Best Paper Award', 'IEEE/ACM ToN papers on edge caching', 'Research on distributed AI systems and algorithms']],
       ['hao-lan', 'Dr. Hao Lan', 'Postdoctoral Fellow', 'haolan@bluesys.example', 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=480&q=80', 'Hao Lan works on fault-tolerant distributed services and fast recovery mechanisms.', ['Fault tolerance', 'Distributed systems', 'Recovery protocols'], ['Low-Latency Recovery for Distributed Services']],
       ['qing-zhao', 'Dr. Qing Zhao', 'Postdoctoral Fellow', 'qingzhao@bluesys.example', 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=480&q=80', 'Qing Zhao focuses on system optimization for large model training and inference.', ['Large model systems', 'Inference optimization', 'Resource scheduling'], ['Efficient Runtime Support for Large Model Inference']],
       ['hao-li', 'Hao Li', 'PhD Student', 'haoli@bluesys.example', 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=480&q=80', 'Hao studies storage engines for cloud-native services and develops prototypes for high-throughput transactional workloads.', ['Storage engines', 'Cloud-native systems', 'Transactions'], ['Fast and Reliable Storage for Cloud-Native Services']],
@@ -53,8 +55,8 @@ const people = {
       '© 2026 智能网络与分布式系统实验室。最后更新：2026 年 6 月 10 日。'
     ],
     list: [
-      ['deke-guo', '郭得科 教授', '教授、博士生导师', 'guodk@mail.sysu.edu.cn', 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=480&q=80', '郭得科教授是中山大学计算机学院教授、博士生导师，主要研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。', ['大模型系统优化', '计算机网络', '分布式计算系统', '边缘计算', '算力网'], ['IEEE ICNP 2019 最佳论文', '发表中英文学术论文 300 余篇', '获得中国和美国授权发明专利 70 余项']],
-      ['yao-wang', '王尧 教授', '副教授', 'yaowang@bluesys.example', 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=480&q=80', '王尧教授关注可编程硬件如何重塑数据系统，包括网络加速和硬件感知的查询执行。', ['数据系统', '可编程网络', '智能网卡', '软硬件协同设计'], ['面向边缘计算的可编程网络支持', '面向算力网的高效调度机制']],
+      ['deke-guo', '郭得科 教授', '教授、博士生导师', 'guodk@mail.sysu.edu.cn', guoPhoto, '郭得科教授是中山大学计算机学院教授、博士生导师，主要研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。', ['大模型系统优化', '计算机网络', '分布式计算系统', '边缘计算', '算力网'], ['IEEE ICNP 2019 最佳论文', '发表中英文学术论文 300 余篇', '获得中国和美国授权发明专利 70 余项']],
+      ['guocong-quan', '权国聪 副教授', '副教授、博士生导师', 'quangc@mail.sysu.edu.cn', quanPhoto, '权国聪副教授是中山大学计算机学院副教授、博士生导师，研究方向聚焦高效分布式 AI 系统与算法，包括高效大模型推理、大规模分布式资源管理与优化、强化学习和在线学习。', ['高效大模型推理', '分布式资源管理', '强化学习', '在线学习'], ['IEEE INFOCOM 2019 最佳论文奖', 'IEEE/ACM ToN 边缘缓存相关论文', '高效分布式 AI 系统与算法研究']],
       ['hao-lan', '蓝昊 博士', '博士后', 'haolan@bluesys.example', 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=480&q=80', '蓝昊博士研究分布式服务的容错和快速恢复机制。', ['容错', '分布式系统', '恢复协议'], ['面向分布式服务的低延迟恢复机制']],
       ['qing-zhao', '赵晴 博士', '博士后', 'qingzhao@bluesys.example', 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=480&q=80', '赵晴博士关注大模型训练与推理中的系统优化技术。', ['大模型系统', '推理优化', '资源调度'], ['面向大模型推理的高效运行时支持']],
       ['hao-li', '李昊', '博士生', 'haoli@bluesys.example', 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=480&q=80', '李昊研究面向云原生服务的分布式系统，并开发支持高吞吐工作负载的系统原型。', ['分布式系统', '云原生系统', '事务处理'], ['面向云原生服务的高可靠分布式系统']],
@@ -101,7 +103,9 @@ function render() {
     link.textContent = copy.nav[link.dataset.profileNav];
   });
 
-  document.querySelector('#profile-photo').src = avatarPlaceholder;
+  document.querySelector('#profile-photo').src = person.id === 'deke-guo' || person.id === 'guocong-quan'
+    ? person.photo
+    : avatarPlaceholder;
   document.querySelector('#profile-photo').alt = person.name;
   document.querySelector('#profile-name').textContent = person.name;
   document.querySelector('#profile-role').textContent = person.role;

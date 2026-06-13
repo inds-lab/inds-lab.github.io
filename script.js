@@ -8,6 +8,8 @@ const viewLinks = Array.from(document.querySelectorAll('[data-view]'));
 const brandLink = document.querySelector('.brand');
 const languageToggle = document.querySelector('#language-toggle');
 const avatarPlaceholder = 'assets/avatar-placeholder.svg';
+const guoPhoto = 'https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2025-07-18_195253_005.png?itok=i9BbsCOB';
+const quanPhoto = 'https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/quangc_0.png?itok=Q-V1FDME';
 const views = Object.fromEntries(
   viewLinks.map((link) => [link.dataset.view, document.querySelector(`#${link.dataset.view}-view`)])
 );
@@ -83,23 +85,23 @@ const content = {
           name: 'Prof. Deke Guo',
           role: 'Professor',
           email: 'guodk@mail.sysu.edu.cn',
-          photo: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=480&q=80',
+          photo: guoPhoto,
           summary: 'Computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
           bio: 'Deke Guo is a professor and doctoral supervisor at Sun Yat-sen University. His research focuses on computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
           interests: ['Large model system optimization', 'Computer networks', 'Distributed computing systems', 'Edge computing', 'Computing power networks'],
           work: ['IEEE ICNP 2019 Best Paper', 'More than 300 academic papers', 'More than 70 granted invention patents']
         },
         {
-          id: 'yao-wang',
+          id: 'guocong-quan',
           group: 'faculty',
-          name: 'Prof. Yao Wang',
+          name: 'Prof. Guocong Quan',
           role: 'Associate Professor',
-          email: 'yaowang@bluesys.example',
-          photo: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=480&q=80',
-          summary: 'Data systems, programmable networks, and hardware-software co-design.',
-          bio: 'Yao Wang studies how programmable hardware can reshape data systems, including network acceleration and hardware-aware query execution.',
-          interests: ['Data systems', 'Programmable networks', 'Smart NICs', 'Hardware-software co-design'],
-          work: ['Programmable Network Support for Edge Computing', 'Efficient Scheduling for Computing Power Networks']
+          email: 'quangc@mail.sysu.edu.cn',
+          photo: quanPhoto,
+          summary: 'Efficient distributed AI systems and algorithms, including large model inference, resource management, and online learning.',
+          bio: 'Guocong Quan is an associate professor and doctoral supervisor at Sun Yat-sen University. His research focuses on efficient distributed AI systems and algorithms, including large model inference, distributed resource management, reinforcement learning, and online learning.',
+          interests: ['Efficient large model inference', 'Distributed resource management', 'Reinforcement learning', 'Online learning'],
+          work: ['IEEE INFOCOM 2019 Best Paper Award', 'IEEE/ACM ToN papers on edge caching', 'Research on distributed AI systems and algorithms']
         },
         {
           id: 'hao-lan',
@@ -343,23 +345,23 @@ const content = {
           name: '郭得科 教授',
           role: '教授',
           email: 'guodk@mail.sysu.edu.cn',
-          photo: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=480&q=80',
+          photo: guoPhoto,
           summary: '研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
           bio: '郭得科教授是中山大学计算机学院教授、博士生导师，主要研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
           interests: ['大模型系统优化', '计算机网络', '分布式计算系统', '边缘计算', '算力网'],
           work: ['IEEE ICNP 2019 最佳论文', '发表中英文学术论文 300 余篇', '获得中国和美国授权发明专利 70 余项']
         },
         {
-          id: 'yao-wang',
+          id: 'guocong-quan',
           group: 'faculty',
-          name: '王尧 教授',
+          name: '权国聪 副教授',
           role: '副教授',
-          email: 'yaowang@bluesys.example',
-          photo: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=480&q=80',
-          summary: '研究方向包括数据系统、可编程网络和软硬件协同设计。',
-          bio: '王尧教授关注可编程硬件如何重塑数据系统，包括网络加速和硬件感知的查询执行。',
-          interests: ['数据系统', '可编程网络', '智能网卡', '软硬件协同设计'],
-          work: ['面向边缘计算的可编程网络支持', '面向算力网的高效调度机制']
+          email: 'quangc@mail.sysu.edu.cn',
+          photo: quanPhoto,
+          summary: '研究方向聚焦高效分布式 AI 系统与算法，包括大模型推理、资源管理和在线学习。',
+          bio: '权国聪副教授是中山大学计算机学院副教授、博士生导师，研究方向聚焦高效分布式 AI 系统与算法，包括高效大模型推理、大规模分布式资源管理与优化、强化学习和在线学习。',
+          interests: ['高效大模型推理', '分布式资源管理', '强化学习', '在线学习'],
+          work: ['IEEE INFOCOM 2019 最佳论文奖', 'IEEE/ACM ToN 边缘缓存相关论文', '高效分布式 AI 系统与算法研究']
         },
         {
           id: 'hao-lan',
@@ -590,13 +592,14 @@ function renderTeam(people) {
 
   people.forEach((person) => {
     const isFaculty = person.group === 'faculty';
+    const avatar = isFaculty ? person.photo : avatarPlaceholder;
     const card = document.createElement('article');
     card.className = isFaculty ? 'member' : 'person-card';
     card.tabIndex = 0;
     card.dataset.profile = person.id;
     card.innerHTML = isFaculty
       ? `
-        <img src="${avatarPlaceholder}" alt="${person.name}">
+        <img src="${avatar}" alt="${person.name}">
         <div>
           <h3>${person.name}</h3>
           <p>${person.role}</p>
@@ -604,7 +607,7 @@ function renderTeam(people) {
         </div>
       `
       : `
-        <img src="${avatarPlaceholder}" alt="${person.name}">
+        <img src="${avatar}" alt="${person.name}">
         <h3>${person.name}</h3>
         <p>${person.summary}</p>
       `;
