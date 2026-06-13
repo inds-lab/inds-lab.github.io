@@ -7,8 +7,6 @@ const navLinks = document.querySelector('.nav-links');
 const viewLinks = Array.from(document.querySelectorAll('[data-view]'));
 const brandLink = document.querySelector('.brand');
 const languageToggle = document.querySelector('#language-toggle');
-const profileModal = document.querySelector('#profile-modal');
-const profileClose = document.querySelector('.profile-close');
 const views = Object.fromEntries(
   viewLinks.map((link) => [link.dataset.view, document.querySelector(`#${link.dataset.view}-view`)])
 );
@@ -623,27 +621,7 @@ function renderTeam(people) {
 }
 
 function openProfile(person) {
-  const profileHeadings = currentLanguage === 'zh'
-    ? ['研究兴趣', '代表工作']
-    : ['Research Interests', 'Selected Work'];
-
-  document.querySelector('#profile-photo').src = person.photo;
-  document.querySelector('#profile-photo').alt = person.name;
-  setText('#profile-name', person.name);
-  setText('#profile-role', person.role);
-  setText('#profile-email', person.email);
-  document.querySelector('#profile-email').href = `mailto:${person.email}`;
-  setText('#profile-bio', person.bio);
-  document.querySelectorAll('.profile-section h3')[0].textContent = profileHeadings[0];
-  document.querySelectorAll('.profile-section h3')[1].textContent = profileHeadings[1];
-  setList('#profile-interests', person.interests, (item) => `<li>${item}</li>`);
-  setList('#profile-work', person.work, (item) => `<li>${item}</li>`);
-  profileModal.hidden = false;
-  profileClose.focus();
-}
-
-function closeProfile() {
-  profileModal.hidden = true;
+  window.location.href = `profile.html?id=${encodeURIComponent(person.id)}&lang=${currentLanguage}`;
 }
 
 function renderLanguage() {
@@ -795,20 +773,6 @@ languageToggle.addEventListener('click', (event) => {
   if (navLinks.classList.contains('open')) {
     navLinks.classList.remove('open');
     navToggle.setAttribute('aria-expanded', 'false');
-  }
-});
-
-profileClose.addEventListener('click', closeProfile);
-
-profileModal.addEventListener('click', (event) => {
-  if (event.target === profileModal) {
-    closeProfile();
-  }
-});
-
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape' && !profileModal.hidden) {
-    closeProfile();
   }
 });
 

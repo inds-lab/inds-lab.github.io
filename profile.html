@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blue Systems Lab - Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="index.html#home">Blue Systems Lab</a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links">
+        <a href="index.html#home" data-profile-nav="home">Home</a>
+        <a class="active" href="index.html#team" data-profile-nav="team">Team</a>
+        <a href="index.html#publications" data-profile-nav="publications">Publications</a>
+        <a href="index.html#research" data-profile-nav="research">Research</a>
+        <a href="index.html#join" data-profile-nav="join">Join Us</a>
+        <a href="#" id="profile-language-toggle">中文</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page profile-page">
+    <a class="back-link" href="index.html#team" id="back-to-team">Back to Team</a>
+
+    <section class="profile-hero">
+      <img id="profile-photo" src="" alt="">
+      <div>
+        <h1 id="profile-name"></h1>
+        <p id="profile-role"></p>
+        <a id="profile-email" href="#"></a>
+      </div>
+    </section>
+
+    <section class="profile-body">
+      <p id="profile-bio"></p>
+
+      <section class="profile-section">
+        <h2 id="profile-interests-title">Research Interests</h2>
+        <ul id="profile-interests"></ul>
+      </section>
+
+      <section class="profile-section">
+        <h2 id="profile-work-title">Selected Work</h2>
+        <ul id="profile-work"></ul>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>Contact: Building F5, Science and Technology Campus, Beijing, China.</p>
+      <p>&copy; 2026 Blue Systems Lab. Last updated on June 10, 2026.</p>
+    </div>
+  </footer>
+
+  <script src="profile.js"></script>
+</body>
+</html>
