@@ -4,7 +4,7 @@ let language = params.get('lang') || localStorage.getItem('site-language') || 'e
 
 const people = {
   en: {
-    brand: 'Blue Systems Lab',
+    brand: 'Intelligent Networking and Distributed Systems Lab',
     language: '中文',
     back: 'Back to Team',
     nav: {
@@ -17,7 +17,7 @@ const people = {
     headings: ['Research Interests', 'Selected Work'],
     footer: [
       'Contact: Building F5, Science and Technology Campus, Beijing, China.',
-      '© 2026 Blue Systems Lab. Last updated on June 10, 2026.'
+      '© 2026 Intelligent Networking and Distributed Systems Lab. Last updated on June 10, 2026.'
     ],
     list: [
       ['lin-chen', 'Prof. Lin Chen', 'Professor', 'linchen@bluesys.example', 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=480&q=80', 'Lin Chen leads projects on reliable storage systems and cloud infrastructure, with an emphasis on deployable prototypes and reproducible evaluation.', ['Storage systems', 'Cloud infrastructure', 'Reliability', 'Persistent memory'], ['Fast and Reliable Storage for Cloud-Native Services', 'Elastic Data Placement in Large-Scale Persistent Memory Systems']],
@@ -36,7 +36,7 @@ const people = {
     ]
   },
   zh: {
-    brand: '蓝色系统实验室',
+    brand: '智能网络与分布式系统实验室',
     language: 'English',
     back: '返回团队',
     nav: {
@@ -49,7 +49,7 @@ const people = {
     headings: ['研究兴趣', '代表工作'],
     footer: [
       '联系方式：北京市，科技园 F5 楼。',
-      '© 2026 蓝色系统实验室。最后更新：2026 年 6 月 10 日。'
+      '© 2026 智能网络与分布式系统实验室。最后更新：2026 年 6 月 10 日。'
     ],
     list: [
       ['lin-chen', '陈林 教授', '教授', 'linchen@bluesys.example', 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=480&q=80', '陈林教授负责可靠存储系统与云基础设施方向的研究，强调可部署原型和可复现实验评估。', ['存储系统', '云基础设施', '可靠性', '持久内存'], ['面向云原生服务的快速可靠存储系统', '大规模持久内存系统中的弹性数据放置']],

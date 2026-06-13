@@ -18,8 +18,8 @@ let timer = window.setInterval(showNext, 5200);
 
 const content = {
   en: {
-    titlePrefix: 'Blue Systems Lab',
-    brand: 'Blue Systems Lab',
+    titlePrefix: 'Intelligent Networking and Distributed Systems Lab',
+    brand: 'Intelligent Networking and Distributed Systems Lab',
     nav: {
       home: 'Home',
       team: 'Team',
@@ -30,10 +30,10 @@ const content = {
     language: '中文',
     footer: [
       'Contact: Building F5, Science and Technology Campus, Beijing, China.',
-      '© 2026 Blue Systems Lab. Last updated on June 10, 2026.'
+      '© 2026 Intelligent Networking and Distributed Systems Lab. Last updated on June 10, 2026.'
     ],
     home: {
-      title: 'Welcome to the Blue Systems Lab!',
+      title: 'Welcome to the Intelligent Networking and Distributed Systems Lab!',
       intro: [
         'Our group studies efficient, reliable, and scalable computer systems. We focus on storage software, cloud infrastructure, programmable networks, and emerging hardware that changes how data is stored, moved, and protected.',
         'The lab publishes in leading systems venues and works closely with students, researchers, and industry partners to turn practical problems into rigorous systems research.'
@@ -278,8 +278,8 @@ const content = {
     }
   },
   zh: {
-    titlePrefix: '蓝色系统实验室',
-    brand: '蓝色系统实验室',
+    titlePrefix: '智能网络与分布式系统实验室',
+    brand: '智能网络与分布式系统实验室',
     nav: {
       home: '首页',
       team: '团队',
@@ -290,10 +290,10 @@ const content = {
     language: 'English',
     footer: [
       '联系方式：北京市，科技园 F5 楼。',
-      '© 2026 蓝色系统实验室。最后更新：2026 年 6 月 10 日。'
+      '© 2026 智能网络与分布式系统实验室。最后更新：2026 年 6 月 10 日。'
     ],
     home: {
-      title: '欢迎来到蓝色系统实验室！',
+      title: '欢迎来到智能网络与分布式系统实验室！',
       intro: [
         '我们关注高效、可靠、可扩展的计算机系统，研究方向包括存储软件、云基础设施、可编程网络，以及会改变数据存储、传输和保护方式的新型硬件。',
         '实验室在系统领域的重要会议上发表研究成果，并与学生、研究者和产业合作伙伴一起，将真实问题转化为严谨的系统研究。'
