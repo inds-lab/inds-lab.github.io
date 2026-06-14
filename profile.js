@@ -41,7 +41,7 @@ const people = {
     ]
   },
   zh: {
-    brand: '智能网络与分布式系统实验室',
+    brand: '中山大学智能网络与分布式系统实验室',
     language: 'English',
     back: '返回团队',
     nav: {

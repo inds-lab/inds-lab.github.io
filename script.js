@@ -284,7 +284,7 @@ const content = {
   },
   zh: {
     titlePrefix: '智能网络与分布式系统实验室',
-    brand: '智能网络与分布式系统实验室',
+    brand: '中山大学智能网络与分布式系统实验室',
     nav: {
       home: '首页',
       team: '团队',

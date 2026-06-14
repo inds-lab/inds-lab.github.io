@@ -50,15 +50,6 @@ a:focus {
   gap: 22px;
 }
 
-.sysu-brand {
-  flex: 0 0 auto;
-  color: #eaf4ff;
-  font-size: 15px;
-  font-weight: 700;
-  white-space: nowrap;
-  opacity: 0.96;
-}
-
 .brand {
   flex: 1 1 auto;
   color: #fff;
@@ -620,15 +611,8 @@ time {
     gap: 10px;
   }
 
-  .sysu-brand {
-    max-width: calc(100% - 56px);
-    font-size: 14px;
-  }
-
   .brand {
-    order: 3;
-    width: 100%;
-    max-width: 100%;
+    max-width: calc(100% - 56px);
   }
 
   .nav-toggle {
