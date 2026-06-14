@@ -35,6 +35,9 @@ a:focus {
 }
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background: var(--blue);
   border-bottom: 1px solid var(--blue-dark);
   box-shadow: 0 1px 3px rgba(15, 79, 147, 0.22);
