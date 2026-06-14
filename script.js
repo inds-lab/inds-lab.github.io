@@ -38,25 +38,25 @@ const content = {
     home: {
       title: 'Welcome to the Intelligent Networking and Distributed Systems Lab!',
       intro: [
-        'Our group studies intelligent networking, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
-        'The lab is led by Prof. Deke Guo at the School of Computer Science and Engineering, Sun Yat-sen University, and welcomes motivated students to explore high-impact systems research.'
+        'Our group studies computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
+        'Led by Prof. Deke Guo at the School of Computer Science and Engineering, Sun Yat-sen University, the lab builds on long-term work in network computing and systems, distributed computing and systems, mobile computing, big data, and large-scale information systems.'
       ],
       captions: [
-        'Intelligent networking and distributed systems research',
-        'Students and faculty building networked systems together',
-        'Seminars, workshops, and collaborative discussions',
-        'From edge computing to large model system optimization'
+        'Computer networks and distributed systems research',
+        'Edge computing, computing power networks, and system prototypes',
+        'Research discussions around papers, projects, and experiments',
+        'From networked systems to large model system optimization'
       ],
       notice: 'We are looking for passionate PhD students, postdocs, and master students to join the team ',
       noticeLink: '(more info)',
       newsTitle: 'News',
       news: [
-        ['2026.', 'We welcome motivated PhD, master, and undergraduate students interested in intelligent networking and distributed systems.'],
+        ['2026.', 'The lab welcomes prospective PhD, master, and outstanding undergraduate students interested in systems and networking research.'],
         ['2023.', 'Prof. Deke Guo received the CCF Natural Science Award, ranked first.'],
         ['2023.', 'Prof. Deke Guo received the First Prize of the Invention and Entrepreneurship Award Innovation Award, ranked first.'],
+        ['2023.', 'Prof. Deke Guo received the Hunan Think Tank Research Outstanding Achievement Award, ranked first.'],
         ['2021.', 'Prof. Deke Guo received the Natural Science Second Prize of the Chinese Institute of Electronics, ranked first.'],
-        ['2020.', 'Prof. Deke Guo received the CCF-IEEE CS Young Scientist Award.'],
-        ['2019.', 'Prof. Deke Guo received the IEEE ICNP Best Paper Award.']
+        ['2020.', 'Prof. Deke Guo received the CCF-IEEE CS Young Scientist Award.']
       ],
       moreNews: '... see all News',
       researchTitle: 'Research',
@@ -87,10 +87,10 @@ const content = {
           email: 'guodk@mail.sysu.edu.cn',
           homepage: 'https://dekeguo.github.io/',
           photo: guoPhoto,
-          summary: 'Computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
-          bio: 'Deke Guo is a professor and doctoral supervisor at Sun Yat-sen University. His research focuses on computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
-          interests: ['Large model system optimization', 'Computer networks', 'Distributed computing systems', 'Edge computing', 'Computing power networks'],
-          work: ['IEEE ICNP 2019 Best Paper', 'More than 300 academic papers', 'More than 70 granted invention patents']
+          summary: 'Professor and doctoral supervisor. Research interests include computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
+          bio: 'Deke Guo is a second-level professor and doctoral supervisor at Sun Yat-sen University. His research covers computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization. His public profile reports more than 300 academic papers, over 150 CCF A/B papers, more than 90 ACM/IEEE Transactions papers, an IEEE ICNP 2019 Best Paper Award, four academic monographs as first author, and over 70 granted Chinese and U.S. invention patents as first inventor.',
+          interests: ['Computer networks', 'Distributed computing systems', 'Edge computing', 'Computing power networks', 'Large model system optimization'],
+          work: ['National-level leading talent and national-level young talent', 'NSFC Excellent Young Scientists Fund recipient', 'CCF-IEEE CS Young Scientist Award, 2020', 'CCF Natural Science Award, ranked first, 2023', 'IEEE ICNP 2019 Best Paper Award']
         },
         {
           id: 'guocong-quan',
@@ -208,7 +208,7 @@ const content = {
           role: 'Alumnus, PhD 2021',
           email: 'guangyan@alumni.example',
           photo: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=480&q=80',
-          summary: 'Graduated in 2021, Tsinghua University.',
+          summary: 'Alumni placeholder. Information to be updated.',
           bio: 'Guangyan worked on networked distributed systems and now continues research in academic infrastructure.',
           interests: ['Computer networks', 'Distributed systems', 'Systems evaluation'],
           work: ['Reliable Service Coordination in Distributed Networks']
@@ -245,7 +245,7 @@ const content = {
         ['Yuhao Zhang', 'Postdoc', '2024', 'Associate Professor'],
         ['Zhe Yang', 'Ph.D.', '2024', 'Huawei'],
         ['Zijie Tian', 'Master', '2024', 'Ph.D. student'],
-        ['Qing Wang', 'Postdoc', '2023', 'Tsinghua University'],
+        ['Qing Wang', 'Postdoc', '2023', 'To be updated'],
         ['Kedong Fang', 'Master', '2022', 'Huawei']
       ]
     },
@@ -319,10 +319,10 @@ const content = {
     },
     research: {
       title: 'Research',
-      lead: 'We study intelligent networking and distributed systems for future computing infrastructures, with emphasis on networks, edge computing, computing power networks, and large model systems.',
+      lead: 'We study future computing infrastructures through computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
       categories: [
-        ['Programs', 'National Key Research Projects', 'Major funded projects on intelligent networking, distributed systems, edge computing, and computing power networks.'],
-        ['Outputs', 'Internal Publications and Research Outputs', 'Representative papers, prototypes, student work, and research progress organized by lab members.']
+        ['Programs', 'National Key Research Projects', 'Selected public grants include the National High-Level Talent Special Support Program, NSFC Excellent Young Scientists Fund, NSFC key and general projects, and National Key R&D Program projects.'],
+        ['Outputs', 'Papers, Books, Patents, and Prototypes', 'The team organizes research outputs around publications, monographs, invention patents, system prototypes, and member research pages.']
       ],
       topicsTitle: 'Research Topics',
       topics: [
@@ -334,7 +334,7 @@ const content = {
     },
     join: {
       title: 'Join Us',
-      lead: 'We welcome motivated undergraduate, master, and PhD students interested in computer networks, distributed systems, edge computing, computing power networks, and large model systems.',
+      lead: 'We welcome motivated undergraduate, master, PhD students, and postdoctoral researchers interested in computer networks, distributed systems, edge computing, computing power networks, and large model systems.',
       openTitle: 'Open Positions',
       positions: [
         'PhD students interested in computer networks, distributed systems, edge computing, and large model systems.',
@@ -363,25 +363,25 @@ const content = {
     home: {
       title: '欢迎来到智能网络与分布式系统实验室！',
       intro: [
-        '我们围绕智能网络与分布式系统开展研究，重点关注计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
-        '实验室依托中山大学计算机学院，由郭得科教授指导，欢迎对系统与网络研究有热情的同学加入。'
+        '我们围绕计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化开展研究。',
+        '实验室依托中山大学计算机学院，由郭得科教授指导，面向网络计算与系统、分布式计算与系统、移动计算、大数据和大规模信息系统等方向开展长期研究。'
       ],
       captions: [
-        '智能网络与分布式系统研究',
-        '师生共同构建网络化系统',
-        '组会、研讨会与合作讨论',
-        '从边缘计算到大模型系统优化'
+        '计算机网络与分布式系统研究',
+        '边缘计算、算力网与系统原型',
+        '围绕论文、项目和实验开展研讨',
+        '从网络化系统到大模型系统优化'
       ],
       notice: '我们正在招收对系统研究有热情的博士生、博士后和硕士生加入团队',
       noticeLink: '（更多信息）',
       newsTitle: '新闻',
       news: [
-        ['2026 年。', '欢迎对智能网络与分布式系统感兴趣的博士生、硕士生和优秀本科生联系加入。'],
+        ['2026 年。', '欢迎对系统与网络研究感兴趣的博士生、硕士生、优秀本科生和博士后联系加入。'],
         ['2023 年。', '郭得科教授获 CCF 自然科学二等奖，排名第 1。'],
         ['2023 年。', '郭得科教授获中国发明协会“发明创业奖创新奖”一等奖，排名第 1。'],
+        ['2023 年。', '郭得科教授获湖南省第四届湖湘智库研究优秀成果奖，排名第 1。'],
         ['2021 年。', '郭得科教授获中国电子学会自然科学二等奖，排名第 1。'],
-        ['2020 年。', '郭得科教授获 CCF-IEEE CS 青年科学家奖。'],
-        ['2019 年。', '郭得科教授获得 IEEE ICNP 最佳论文奖。']
+        ['2020 年。', '郭得科教授获 CCF-IEEE CS 青年科学家奖。']
       ],
       moreNews: '... 查看全部新闻',
       researchTitle: '研究方向',
@@ -412,10 +412,10 @@ const content = {
           email: 'guodk@mail.sysu.edu.cn',
           homepage: 'https://dekeguo.github.io/',
           photo: guoPhoto,
-          summary: '研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
-          bio: '郭得科教授是中山大学计算机学院教授、博士生导师，主要研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
-          interests: ['大模型系统优化', '计算机网络', '分布式计算系统', '边缘计算', '算力网'],
-          work: ['IEEE ICNP 2019 最佳论文', '发表中英文学术论文 300 余篇', '获得中国和美国授权发明专利 70 余项']
+          summary: '中山大学二级教授、博士生导师，研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
+          bio: '郭得科，中山大学二级教授、博士生导师。公开简介显示，其研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化；发表中英文学术论文 300 余篇，其中 CCF 推荐 A/B 类论文 150 余篇、ACM/IEEE Transactions 文章 90 余篇；获得 IEEE ICNP 2019 最佳论文；以第一完成人出版学术专著 4 部，以第一发明人获得中国和美国授权发明专利 70 余项。',
+          interests: ['计算机网络', '分布式计算系统', '边缘计算', '算力网', '大模型系统优化'],
+          work: ['国家级领军人才、国家级青年人才', '国家自然科学基金优秀青年基金获得者', '2020 年 CCF-IEEE CS 青年科学家奖', '2023 年 CCF 自然科学二等奖，排名第 1', 'IEEE ICNP 2019 最佳论文']
         },
         {
           id: 'guocong-quan',
@@ -533,7 +533,7 @@ const content = {
           role: '毕业生，博士 2021',
           email: 'guangyan@alumni.example',
           photo: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=480&q=80',
-          summary: '2021 年毕业，清华大学。',
+          summary: '毕业生占位信息，后续更新。',
           bio: '张光彦博士曾研究网络化分布式系统，目前继续从事学术基础设施方向研究。',
           interests: ['计算机网络', '分布式系统', '系统评测'],
           work: ['分布式网络中的可靠服务协同']
@@ -570,7 +570,7 @@ const content = {
         ['张宇豪', '博士后', '2024', '高校任教'],
         ['杨哲', '博士', '2024', '华为'],
         ['田子杰', '硕士', '2024', '继续攻读博士'],
-        ['王晴', '博士后', '2023', '清华大学'],
+        ['王晴', '博士后', '2023', '待更新'],
         ['方科栋', '硕士', '2022', '华为']
       ]
     },
@@ -644,10 +644,10 @@ const content = {
     },
     research: {
       title: '研究方向',
-      lead: '我们面向未来计算基础设施开展智能网络与分布式系统研究，重点关注网络、边缘计算、算力网和大模型系统。',
+      lead: '我们面向未来计算基础设施开展研究，重点关注计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
       categories: [
-        ['科研项目', '国家重点科研项目', '围绕智能网络、分布式系统、边缘计算与算力网等方向承担和参与重点科研任务。'],
-        ['成果沉淀', '组内论文与个人研究成果', '整理教师、博士后和研究生的代表论文、系统原型、阶段成果与个人研究进展。']
+        ['科研项目', '国家重点科研项目', '公开项目包括国家高层次人才特殊支持计划、国家自然科学基金优青/重点/面上项目、国家重点研发计划项目等。'],
+        ['成果沉淀', '论文、专著、专利与系统原型', '围绕论文发表、学术专著、授权发明专利、系统原型和成员个人主页整理研究成果。']
       ],
       topicsTitle: '研究主题',
       topics: [
@@ -659,7 +659,7 @@ const content = {
     },
     join: {
       title: '加入我们',
-      lead: '欢迎对计算机网络、分布式系统、边缘计算、算力网和大模型系统感兴趣的本科生、硕士生和博士生加入。',
+      lead: '欢迎对计算机网络、分布式系统、边缘计算、算力网和大模型系统感兴趣的本科生、硕士生、博士生和博士后加入。',
       openTitle: '开放名额',
       positions: [
         '对计算机网络、分布式系统、边缘计算和大模型系统感兴趣的博士生。',
