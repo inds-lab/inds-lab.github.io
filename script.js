@@ -85,6 +85,7 @@ const content = {
           name: 'Prof. Deke Guo',
           role: 'Professor',
           email: 'guodk@mail.sysu.edu.cn',
+          homepage: 'https://dekeguo.github.io/',
           photo: guoPhoto,
           summary: 'Computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
           bio: 'Deke Guo is a professor and doctoral supervisor at Sun Yat-sen University. His research focuses on computer networks, distributed computing systems, edge computing, computing power networks, and large model system optimization.',
@@ -97,6 +98,7 @@ const content = {
           name: 'Prof. Guocong Quan',
           role: 'Associate Professor',
           email: 'quangc@mail.sysu.edu.cn',
+          homepage: 'https://guocongquan.github.io/',
           photo: quanPhoto,
           summary: 'Efficient distributed AI systems and algorithms, including large model inference, resource management, and online learning.',
           bio: 'Guocong Quan is an associate professor and doctoral supervisor at Sun Yat-sen University. His research focuses on efficient distributed AI systems and algorithms, including large model inference, distributed resource management, reinforcement learning, and online learning.',
@@ -345,6 +347,7 @@ const content = {
           name: '郭得科 教授',
           role: '教授',
           email: 'guodk@mail.sysu.edu.cn',
+          homepage: 'https://dekeguo.github.io/',
           photo: guoPhoto,
           summary: '研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
           bio: '郭得科教授是中山大学计算机学院教授、博士生导师，主要研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
@@ -357,6 +360,7 @@ const content = {
           name: '权国聪 副教授',
           role: '副教授',
           email: 'quangc@mail.sysu.edu.cn',
+          homepage: 'https://guocongquan.github.io/',
           photo: quanPhoto,
           summary: '研究方向聚焦高效分布式 AI 系统与算法，包括大模型推理、资源管理和在线学习。',
           bio: '权国聪副教授是中山大学计算机学院副教授、博士生导师，研究方向聚焦高效分布式 AI 系统与算法，包括高效大模型推理、大规模分布式资源管理与优化、强化学习和在线学习。',
@@ -604,7 +608,7 @@ function renderTeam(people) {
           <h3>${person.name}</h3>
           <p>${person.role}</p>
           <p>${person.summary}</p>
-          ${person.id === 'deke-guo' ? `<a class="profile-link" href="https://dekeguo.github.io/">${currentLanguage === 'zh' ? '个人主页' : 'Homepage'}</a>` : ''}
+          ${person.homepage ? `<a class="profile-link" href="${person.homepage}">${currentLanguage === 'zh' ? '个人主页' : 'Homepage'}</a>` : ''}
         </div>
       `
       : `
@@ -633,8 +637,8 @@ function renderTeam(people) {
 }
 
 function openProfile(person) {
-  if (person.id === 'deke-guo') {
-    window.location.href = 'https://dekeguo.github.io/';
+  if (person.homepage) {
+    window.location.href = person.homepage;
     return;
   }
 
