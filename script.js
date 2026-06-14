@@ -625,7 +625,7 @@ function renderTeam(people) {
 }
 
 function openProfile(person) {
-  window.location.href = `profile.html?id=${encodeURIComponent(person.id)}&lang=${currentLanguage}`;
+  window.location.href = `people/${encodeURIComponent(person.id)}/?lang=${currentLanguage}`;
 }
 
 function renderLanguage() {

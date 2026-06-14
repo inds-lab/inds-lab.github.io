@@ -1,7 +1,9 @@
 const params = new URLSearchParams(window.location.search);
-const profileId = params.get('id') || 'deke-guo';
+const pathParts = window.location.pathname.split('/').filter(Boolean);
+const pathProfileId = pathParts[0] === 'people' ? pathParts[1] : '';
+const profileId = params.get('id') || pathProfileId || 'deke-guo';
 let language = params.get('lang') || localStorage.getItem('site-language') || 'en';
-const avatarPlaceholder = 'assets/avatar-placeholder.svg';
+const avatarPlaceholder = '/assets/avatar-placeholder.svg';
 const guoPhoto = 'https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2025-07-18_195253_005.png?itok=i9BbsCOB';
 const quanPhoto = 'https://cse.sysu.edu.cn/sites/default/files/styles/image_style_2/public/quangc_0.png?itok=Q-V1FDME';
 
@@ -98,7 +100,7 @@ function render() {
   document.querySelector('.brand').textContent = copy.brand;
   document.querySelector('#profile-language-toggle').textContent = copy.language;
   document.querySelector('#back-to-team').textContent = copy.back;
-  document.querySelector('#back-to-team').href = `index.html#team`;
+  document.querySelector('#back-to-team').href = `/index.html#team`;
   document.querySelectorAll('[data-profile-nav]').forEach((link) => {
     link.textContent = copy.nav[link.dataset.profileNav];
   });
