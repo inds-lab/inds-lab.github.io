@@ -613,7 +613,7 @@ function renderTeam(people) {
           <h3>${person.name}</h3>
           <p>${person.role}</p>
           <p>${person.summary}</p>
-          ${person.homepage ? `<span class="profile-link">${currentLanguage === 'zh' ? '个人主页' : 'Homepage'}</span>` : ''}
+          ${person.homepage ? `<span class="profile-link">${currentLanguage === 'zh' ? '进入个人主页' : 'Open Homepage'}</span>` : ''}
         </div>
       `
       : `

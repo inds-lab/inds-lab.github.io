@@ -1,13 +1,13 @@
 :root {
-  --blue: #1769c2;
-  --blue-dark: #0f4f93;
-  --blue-soft: #e8f2ff;
+  --blue: #007a3d;
+  --blue-dark: #005a2d;
+  --blue-soft: #e8f5ee;
   --ink: #26323f;
   --muted: #667789;
   --line: #d8e3ee;
   --page: #ffffff;
   --band: #f5f8fb;
-  --accent: #11a39a;
+  --accent: #8b6bb1;
 }
 
 * {
@@ -35,9 +35,9 @@ a:focus {
 }
 
 .site-header {
-  background: var(--blue);
+  background: linear-gradient(90deg, #006b3f 0%, #007a3d 45%, #4f73b8 100%);
   border-bottom: 1px solid var(--blue-dark);
-  box-shadow: 0 1px 3px rgba(15, 79, 147, 0.22);
+  box-shadow: 0 1px 3px rgba(0, 90, 45, 0.24);
 }
 
 .navbar {
@@ -53,10 +53,10 @@ a:focus {
 .sysu-brand {
   display: flex;
   align-items: center;
-  gap: 8px;
-  min-width: 178px;
-  color: #eaf8ef;
-  font-size: 12px;
+  gap: 10px;
+  min-width: 210px;
+  color: #f2fff6;
+  font-size: 13px;
   font-weight: 700;
   line-height: 1.15;
 }
@@ -68,16 +68,13 @@ a:focus {
 }
 
 .sysu-emblem {
-  display: grid;
-  place-items: center;
-  width: 38px;
-  height: 38px;
-  border: 2px solid rgba(255, 255, 255, 0.86);
+  width: 44px;
+  height: 44px;
+  padding: 3px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
   border-radius: 50%;
   background: #007a3d;
-  color: #fff;
-  font-size: 10px;
-  letter-spacing: 0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
 .brand {
@@ -110,7 +107,7 @@ a:focus {
 .nav-links a:hover,
 .nav-links a:focus,
 .nav-links a.active {
-  background: var(--blue-dark);
+  background: rgba(0, 76, 38, 0.82);
   color: #fff;
   text-decoration: none;
 }
