@@ -596,11 +596,16 @@ function renderTeam(people) {
 
   people.forEach((person) => {
     const isFaculty = person.group === 'faculty';
+    const hasHomepage = Boolean(person.homepage);
     const avatar = isFaculty ? person.photo : avatarPlaceholder;
-    const card = document.createElement('article');
+    const card = document.createElement(hasHomepage ? 'a' : 'article');
     card.className = isFaculty ? 'member' : 'person-card';
     card.tabIndex = 0;
     card.dataset.profile = person.id;
+    if (hasHomepage) {
+      card.href = person.homepage;
+      card.setAttribute('aria-label', `${person.name} homepage`);
+    }
     card.innerHTML = isFaculty
       ? `
         <img src="${avatar}" alt="${person.name}">
@@ -608,7 +613,7 @@ function renderTeam(people) {
           <h3>${person.name}</h3>
           <p>${person.role}</p>
           <p>${person.summary}</p>
-          ${person.homepage ? `<a class="profile-link" href="${person.homepage}">${currentLanguage === 'zh' ? '个人主页' : 'Homepage'}</a>` : ''}
+          ${person.homepage ? `<span class="profile-link">${currentLanguage === 'zh' ? '个人主页' : 'Homepage'}</span>` : ''}
         </div>
       `
       : `
@@ -617,18 +622,13 @@ function renderTeam(people) {
         <p>${person.summary}</p>
       `;
 
-    card.addEventListener('click', () => openProfile(person));
-    card.addEventListener('keydown', (event) => {
-      if (event.key === 'Enter' || event.key === ' ') {
-        event.preventDefault();
-        openProfile(person);
-      }
-    });
-
-    const profileLink = card.querySelector('.profile-link');
-    if (profileLink) {
-      profileLink.addEventListener('click', (event) => {
-        event.stopPropagation();
+    if (!hasHomepage) {
+      card.addEventListener('click', () => openProfile(person));
+      card.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          openProfile(person);
+        }
       });
     }
 
