@@ -1,13 +1,13 @@
 :root {
-  --blue: #007a3d;
-  --blue-dark: #005a2d;
-  --blue-soft: #e8f5ee;
+  --blue: #1769c2;
+  --blue-dark: #0f4f93;
+  --blue-soft: #e8f2ff;
   --ink: #26323f;
   --muted: #667789;
   --line: #d8e3ee;
   --page: #ffffff;
   --band: #f5f8fb;
-  --accent: #8b6bb1;
+  --accent: #11a39a;
 }
 
 * {
@@ -35,9 +35,9 @@ a:focus {
 }
 
 .site-header {
-  background: linear-gradient(90deg, #006b3f 0%, #007a3d 45%, #4f73b8 100%);
+  background: var(--blue);
   border-bottom: 1px solid var(--blue-dark);
-  box-shadow: 0 1px 3px rgba(0, 90, 45, 0.24);
+  box-shadow: 0 1px 3px rgba(15, 79, 147, 0.22);
 }
 
 .navbar {
@@ -107,7 +107,7 @@ a:focus {
 .nav-links a:hover,
 .nav-links a:focus,
 .nav-links a.active {
-  background: rgba(0, 76, 38, 0.82);
+  background: var(--blue-dark);
   color: #fff;
   text-decoration: none;
 }
