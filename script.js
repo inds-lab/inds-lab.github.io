@@ -320,6 +320,11 @@ const content = {
     research: {
       title: 'Research',
       lead: 'We study intelligent networking and distributed systems for future computing infrastructures, with emphasis on networks, edge computing, computing power networks, and large model systems.',
+      categories: [
+        ['Programs', 'National Key Research Projects', 'Major funded projects on intelligent networking, distributed systems, edge computing, and computing power networks.'],
+        ['Outputs', 'Internal Publications and Research Outputs', 'Representative papers, prototypes, student work, and research progress organized by lab members.']
+      ],
+      topicsTitle: 'Research Topics',
       topics: [
         ['Large Model System Optimization', 'System support for efficient training, inference, scheduling, and deployment of large models.'],
         ['Computer Networks', 'Network architectures, protocols, and intelligent mechanisms for high-performance communication.'],
@@ -640,6 +645,11 @@ const content = {
     research: {
       title: '研究方向',
       lead: '我们面向未来计算基础设施开展智能网络与分布式系统研究，重点关注网络、边缘计算、算力网和大模型系统。',
+      categories: [
+        ['科研项目', '国家重点科研项目', '围绕智能网络、分布式系统、边缘计算与算力网等方向承担和参与重点科研任务。'],
+        ['成果沉淀', '组内论文与个人研究成果', '整理教师、博士后和研究生的代表论文、系统原型、阶段成果与个人研究进展。']
+      ],
+      topicsTitle: '研究主题',
       topics: [
         ['大模型系统优化', '研究大模型训练、推理、调度和部署中的系统支撑技术。'],
         ['计算机网络', '研究高性能通信所需的网络架构、协议和智能机制。'],
@@ -847,6 +857,13 @@ function renderLanguage() {
 
   setText('#research-view h1', copy.research.title);
   setText('#research-view .page-lead', copy.research.lead);
+  setText('#research-view .section-heading', copy.research.topicsTitle);
+  document.querySelectorAll('#research-view .research-category').forEach((category, index) => {
+    const [label, title, text] = copy.research.categories[index];
+    category.querySelector('span').textContent = label;
+    category.querySelector('h2').textContent = title;
+    category.querySelector('p').textContent = text;
+  });
   document.querySelectorAll('#research-view .topic').forEach((topic, index) => {
     const [title, text] = copy.research.topics[index];
     topic.querySelector('h2').textContent = title;
