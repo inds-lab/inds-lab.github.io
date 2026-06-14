@@ -112,7 +112,7 @@ const content = {
           role: 'Postdoctoral Fellow',
           email: 'haolan@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=480&q=80',
-          summary: 'Start in 2024.',
+          summary: 'Start in 2024',
           bio: 'Hao Lan works on fault-tolerant cloud storage and fast recovery mechanisms for distributed services.',
           interests: ['Fault tolerance', 'Distributed systems', 'Recovery protocols'],
           work: ['Low-Latency Recovery for Replicated Storage']
@@ -124,7 +124,7 @@ const content = {
           role: 'Postdoctoral Fellow',
           email: 'qingzhao@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=480&q=80',
-          summary: 'Start in 2025.',
+          summary: 'Start in 2025',
           bio: 'Qing Zhao focuses on system optimization for large model training and inference.',
           interests: ['Large model systems', 'Inference optimization', 'Resource scheduling'],
           work: ['Efficient Runtime Support for Large Model Inference']
@@ -136,7 +136,7 @@ const content = {
           role: 'PhD Student',
           email: 'haoli@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=480&q=80',
-          summary: 'Ph.D. Start in 2022.',
+          summary: 'PhD student, start in 2022',
           bio: 'Hao studies storage engines for cloud-native services and develops prototypes for high-throughput transactional workloads.',
           interests: ['Storage engines', 'Cloud-native systems', 'Transactions'],
           work: ['Fast and Reliable Storage for Cloud-Native Services']
@@ -148,7 +148,7 @@ const content = {
           role: 'PhD Student',
           email: 'runhuazhang@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=480&q=80',
-          summary: 'Ph.D. Start in 2023.',
+          summary: 'PhD student, start in 2023',
           bio: 'Runhua works on resource orchestration and scheduling in computing power networks.',
           interests: ['Computing power networks', 'Resource orchestration', 'Scheduling'],
           work: ['Resource Scheduling for Computing Power Networks']
@@ -160,7 +160,7 @@ const content = {
           role: 'PhD Student',
           email: 'junruliu@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=480&q=80',
-          summary: 'Ph.D. Start in 2024.',
+          summary: 'PhD student, start in 2024',
           bio: 'Junru explores programmable network support for edge services and service-to-service communication.',
           interests: ['Programmable switches', 'Edge services', 'Network systems'],
           work: ['Programmable Network Support for Edge Services']
@@ -172,7 +172,7 @@ const content = {
           role: 'Master Student',
           email: 'wenhaoxu@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=480&q=80',
-          summary: 'Master. Start in 2024.',
+          summary: 'Master student, start in 2024',
           bio: 'Wenhao builds measurement and benchmarking tools for edge computing systems.',
           interests: ['Benchmarking', 'Observability', 'Edge computing'],
           work: ['Trace-Guided Benchmarking for Edge Services']
@@ -184,7 +184,7 @@ const content = {
           role: 'Master Student',
           email: 'haodisun@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=480&q=80',
-          summary: 'Master. Start in 2025.',
+          summary: 'Master student, start in 2025',
           bio: 'Haodi studies caching and scheduling techniques for large model serving systems.',
           interests: ['Indexing', 'Caching', 'Hardware acceleration'],
           work: ['Caching and Scheduling for Large Model Serving']
@@ -196,7 +196,7 @@ const content = {
           role: 'Master Student',
           email: 'yuechen@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=480&q=80',
-          summary: 'Master. Start in 2025.',
+          summary: 'Master student, start in 2025',
           bio: 'Yue works on reliability testing and failure injection for distributed services.',
           interests: ['Failure injection', 'Testing', 'Reliable systems'],
           work: ['Practical Failure Injection for Cloud Services']
@@ -376,12 +376,12 @@ const content = {
       noticeLink: '（更多信息）',
       newsTitle: '新闻',
       news: [
-        ['2026 年。', '欢迎对系统与网络研究感兴趣的博士生、硕士生、优秀本科生和博士后联系加入。'],
-        ['2023 年。', '郭得科教授获 CCF 自然科学二等奖，排名第 1。'],
-        ['2023 年。', '郭得科教授获中国发明协会“发明创业奖创新奖”一等奖，排名第 1。'],
-        ['2023 年。', '郭得科教授获湖南省第四届湖湘智库研究优秀成果奖，排名第 1。'],
-        ['2021 年。', '郭得科教授获中国电子学会自然科学二等奖，排名第 1。'],
-        ['2020 年。', '郭得科教授获 CCF-IEEE CS 青年科学家奖。']
+        ['2026 年', '欢迎对系统与网络研究感兴趣的博士生、硕士生、优秀本科生和博士后联系加入实验室。'],
+        ['2023 年', '郭得科教授获 CCF 自然科学二等奖，排名第一。'],
+        ['2023 年', '郭得科教授获中国发明协会“发明创业奖创新奖”一等奖，排名第一。'],
+        ['2023 年', '郭得科教授获湖南省第四届湖湘智库研究优秀成果奖，排名第一。'],
+        ['2021 年', '郭得科教授获中国电子学会自然科学二等奖，排名第一。'],
+        ['2020 年', '郭得科教授获 CCF-IEEE CS 青年科学家奖。']
       ],
       moreNews: '... 查看全部新闻',
       researchTitle: '研究方向',
@@ -415,7 +415,7 @@ const content = {
           summary: '中山大学二级教授、博士生导师，研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
           bio: '郭得科，中山大学二级教授、博士生导师。公开简介显示，其研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化；发表中英文学术论文 300 余篇，其中 CCF 推荐 A/B 类论文 150 余篇、ACM/IEEE Transactions 文章 90 余篇；获得 IEEE ICNP 2019 最佳论文；以第一完成人出版学术专著 4 部，以第一发明人获得中国和美国授权发明专利 70 余项。',
           interests: ['计算机网络', '分布式计算系统', '边缘计算', '算力网', '大模型系统优化'],
-          work: ['国家级领军人才、国家级青年人才', '国家自然科学基金优秀青年基金获得者', '2020 年 CCF-IEEE CS 青年科学家奖', '2023 年 CCF 自然科学二等奖，排名第 1', 'IEEE ICNP 2019 最佳论文']
+          work: ['国家级领军人才、国家级青年人才', '国家自然科学基金优秀青年基金获得者', '2020 年 CCF-IEEE CS 青年科学家奖', '2023 年 CCF 自然科学二等奖，排名第一', 'IEEE ICNP 2019 最佳论文']
         },
         {
           id: 'guocong-quan',
@@ -437,7 +437,7 @@ const content = {
           role: '博士后',
           email: 'haolan@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=480&q=80',
-          summary: '2024 年加入。',
+          summary: '2024 年加入',
           bio: 'XXX 博士研究分布式服务的容错和快速恢复机制。',
           interests: ['容错', '分布式系统', '恢复协议'],
           work: ['面向复制存储的低延迟恢复机制']
@@ -449,7 +449,7 @@ const content = {
           role: '博士后',
           email: 'qingzhao@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=480&q=80',
-          summary: '2025 年加入。',
+          summary: '2025 年加入',
           bio: 'XXX 博士关注大模型训练与推理中的系统优化技术。',
           interests: ['大模型系统', '推理优化', '资源调度'],
           work: ['面向大模型推理的高效运行时支持']
@@ -461,7 +461,7 @@ const content = {
           role: '博士生',
           email: 'haoli@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=480&q=80',
-          summary: '博士生，2022 年入学。',
+          summary: '博士生，2022 年入学',
           bio: 'XXX 研究面向云原生服务的存储引擎，并开发支持高吞吐事务负载的系统原型。',
           interests: ['存储引擎', '云原生系统', '事务处理'],
           work: ['面向云原生服务的高可靠分布式系统']
@@ -473,7 +473,7 @@ const content = {
           role: '博士生',
           email: 'runhuazhang@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=480&q=80',
-          summary: '博士生，2023 年入学。',
+          summary: '博士生，2023 年入学',
           bio: 'XXX 研究算力网中的资源编排与调度。',
           interests: ['算力网', '资源编排', '调度'],
           work: ['面向算力网的资源调度机制']
@@ -485,7 +485,7 @@ const content = {
           role: '博士生',
           email: 'junruliu@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=480&q=80',
-          summary: '博士生，2024 年入学。',
+          summary: '博士生，2024 年入学',
           bio: 'XXX 探索可编程网络对边缘服务和服务间通信的支持。',
           interests: ['可编程交换机', '边缘服务', '网络系统'],
           work: ['面向边缘服务的可编程网络支持']
@@ -497,7 +497,7 @@ const content = {
           role: '硕士生',
           email: 'wenhaoxu@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=480&q=80',
-          summary: '硕士生，2024 年入学。',
+          summary: '硕士生，2024 年入学',
           bio: 'XXX 构建面向边缘计算系统的测量和基准测试工具。',
           interests: ['基准测试', '可观测性', '边缘计算'],
           work: ['面向边缘服务的 Trace 驱动基准测试']
@@ -509,7 +509,7 @@ const content = {
           role: '硕士生',
           email: 'haodisun@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=480&q=80',
-          summary: '硕士生，2025 年入学。',
+          summary: '硕士生，2025 年入学',
           bio: 'XXX 研究面向硬件加速数据系统的索引和缓存技术。',
           interests: ['索引', '缓存', '硬件加速'],
           work: ['面向硬件加速数据系统的实用索引技术']
@@ -521,7 +521,7 @@ const content = {
           role: '硕士生',
           email: 'yuechen@bluesys.example',
           photo: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=480&q=80',
-          summary: '硕士生，2025 年入学。',
+          summary: '硕士生，2025 年入学',
           bio: 'XXX 研究分布式服务的可靠性测试和故障注入。',
           interests: ['故障注入', '测试', '可靠系统'],
           work: ['面向云服务的实用故障注入']
@@ -644,7 +644,7 @@ const content = {
     },
     research: {
       title: '研究方向',
-      lead: '我们面向未来计算基础设施开展研究，重点关注计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
+      lead: '我们面向未来计算基础设施开展研究，重点关注计算机网络、分布式计算系统、边缘计算、算力网以及大模型系统优化等方向。',
       categories: [
         ['科研项目', '国家重点科研项目', '公开项目包括国家高层次人才特殊支持计划、国家自然科学基金优青/重点/面上项目、国家重点研发计划项目等。'],
         ['成果沉淀', '论文、专著、专利与系统原型', '围绕论文发表、学术专著、授权发明专利、系统原型和成员个人主页整理研究成果。']
@@ -659,7 +659,7 @@ const content = {
     },
     join: {
       title: '加入我们',
-      lead: '欢迎对计算机网络、分布式系统、边缘计算、算力网和大模型系统感兴趣的本科生、硕士生、博士生和博士后加入。',
+      lead: '欢迎对计算机网络、分布式系统、边缘计算、算力网和大模型系统感兴趣的本科生、硕士生、博士生和博士后加入实验室。',
       openTitle: '开放名额',
       positions: [
         '对计算机网络、分布式系统、边缘计算和大模型系统感兴趣的博士生。',
@@ -826,6 +826,10 @@ function renderLanguage() {
   setText('.news h2', copy.home.newsTitle);
   setList('.news ul', copy.home.news, ([date, text]) => `<li><time>${date}</time> ${text}</li>`);
   setText('.more-link', copy.home.moreNews);
+  const moreNewsLink = document.querySelector('.more-link');
+  if (moreNewsLink) {
+    moreNewsLink.href = '/news/';
+  }
   setText('.research-list h2', copy.home.researchTitle);
   setList('.research-list ul', copy.home.researchItems, (item) => `<li>${item}</li>`);
 

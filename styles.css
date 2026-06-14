@@ -110,7 +110,7 @@ a:focus {
 }
 
 .page {
-  width: min(970px, calc(100% - 32px));
+  width: min(1180px, calc(100% - 32px));
   margin: 28px auto 42px;
 }
 
@@ -297,8 +297,21 @@ time {
 }
 
 .page-lead {
-  max-width: 760px;
+  max-width: 1040px;
   margin: 0 0 28px;
+}
+
+:lang(zh-CN) .page-lead,
+:lang(zh-CN) .intro p,
+:lang(zh-CN) .news li,
+:lang(zh-CN) .news-archive li,
+:lang(zh-CN) .join-panel p,
+:lang(zh-CN) .topic p,
+:lang(zh-CN) .research-category p,
+:lang(zh-CN) .person-card p {
+  word-break: keep-all;
+  overflow-wrap: normal;
+  text-wrap: pretty;
 }
 
 .team-section {
@@ -733,6 +746,18 @@ time {
   .page {
     width: calc(100% - 24px);
     margin-top: 22px;
+  }
+
+  :lang(zh-CN) .page-lead,
+  :lang(zh-CN) .intro p,
+  :lang(zh-CN) .news li,
+  :lang(zh-CN) .news-archive li,
+  :lang(zh-CN) .join-panel p,
+  :lang(zh-CN) .topic p,
+  :lang(zh-CN) .research-category p,
+  :lang(zh-CN) .person-card p {
+    word-break: normal;
+    overflow-wrap: anywhere;
   }
 
   .intro h1 {
