@@ -251,12 +251,70 @@ const content = {
     },
     publications: {
       title: 'Publications',
-      lead: 'Selected research directions and publication resources in networking, distributed systems, edge computing, computing power networks, and large model systems.',
-      papers: [
-        ['Publication List on DBLP', 'External resource. Deke Guo.'],
-        ['Google Scholar Profile', 'External resource. Deke Guo.'],
-        ['Research on Computing Power Networks', 'Networking and distributed systems.'],
-        ['Research on Large Model System Optimization', 'Systems for efficient AI workloads.']
+      lead: 'Selected publications by Prof. Deke Guo and collaborators in computer networks, distributed systems, edge computing, and data-intensive systems.',
+      years: [
+        {
+          year: '2023',
+          papers: [
+            {
+              title: 'When Deduplication Meets Migration: An Efficient and Adaptive Strategy in Distributed Storage Systems',
+              authors: 'Geyao Cheng, Lailong Luo, Junxu Xia, Deke Guo, Yuchen Sun',
+              venue: 'IEEE Transactions on Parallel and Distributed Systems (TPDS), 2023',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/Jingwei-TPDS.pdf' }]
+            }
+          ]
+        },
+        {
+          year: '2022',
+          papers: [
+            {
+              title: 'COIN: An Efficient Indexing Mechanism for Unstructured Data Sharing Systems',
+              authors: 'Junjie Xie, Chen Qian, Deke Guo, Minmei Wang, Ge Wang, Honghui Chen',
+              venue: 'IEEE/ACM Transactions on Networking (TON), 2022',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/ton_coin.pdf' }]
+            }
+          ]
+        },
+        {
+          year: '2021',
+          papers: [
+            {
+              title: 'HDS: A Fast Hybrid Data Location Service for Hierarchical Mobile Edge Computing',
+              authors: 'Deke Guo, Junjie Xie, Xiaofeng Shi, Haofan Cai, Chen Qian, Honghui Chen',
+              venue: 'IEEE/ACM Transactions on Networking (TON), 2021',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/TON_HDSS.pdf' }]
+            },
+            {
+              title: 'MCFsyn: A Multi-party Set Reconciliation Protocol with the Marked Cuckoo Filter',
+              authors: 'Lailong Luo, Deke Guo, Yawei Zhao, Ori Rottenstreich, Richard T. B. Ma, Xueshan Luo',
+              venue: 'IEEE Transactions on Parallel and Distributed Systems (TPDS), 2021',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/MCFsyn.pdf' }]
+            },
+            {
+              title: 'A Capacity-elastic Cuckoo Filter Design for Dynamic Set Representation',
+              authors: 'Lailong Luo, Deke Guo, Ori Rottenstreich, Richard T. B. Ma, Xueshan Luo, Bangbang Ren',
+              venue: 'IEEE Transactions on Network and Service Management (TNSM), 2021',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/tnsm_lailong.pdf' }]
+            }
+          ]
+        },
+        {
+          year: '2019',
+          papers: [
+            {
+              title: 'Validation of Distributed SDN Control Plane Under Uncertain Failures',
+              authors: 'Junjie Xie, Deke Guo, Chen Qian',
+              venue: 'IEEE/ACM Transactions on Networking (TON), 2019',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/Ton_RobustValidation.pdf' }]
+            },
+            {
+              title: 'Embedding Service Function Tree with Minimum Cost for NFV Enabled Multicast',
+              authors: 'Bangbang Ren, Deke Guo, Yulong Shen, Guoming Tang, Xu Lin',
+              venue: 'IEEE Journal on Selected Areas in Communications (JSAC), 2019',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/JSAC_NFV.pdf' }]
+            }
+          ]
+        }
       ]
     },
     research: {
@@ -513,12 +571,70 @@ const content = {
     },
     publications: {
       title: '论文发表',
-      lead: '实验室围绕网络、分布式系统、边缘计算、算力网和大模型系统开展研究，可通过 DBLP 与 Google Scholar 查看论文成果。',
-      papers: [
-        ['DBLP 论文列表', '外部资源。郭得科。'],
-        ['Google Scholar 主页', '外部资源。郭得科。'],
-        ['算力网相关研究', '网络与分布式系统方向。'],
-        ['大模型系统优化研究', '面向高效 AI 工作负载的系统研究。']
+      lead: '这里选取郭得科教授及合作者在计算机网络、分布式系统、边缘计算与数据密集型系统方向的部分代表论文。',
+      years: [
+        {
+          year: '2023',
+          papers: [
+            {
+              title: 'When Deduplication Meets Migration: An Efficient and Adaptive Strategy in Distributed Storage Systems',
+              authors: 'Geyao Cheng, Lailong Luo, Junxu Xia, Deke Guo, Yuchen Sun',
+              venue: 'IEEE Transactions on Parallel and Distributed Systems (TPDS), 2023',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/Jingwei-TPDS.pdf' }]
+            }
+          ]
+        },
+        {
+          year: '2022',
+          papers: [
+            {
+              title: 'COIN: An Efficient Indexing Mechanism for Unstructured Data Sharing Systems',
+              authors: 'Junjie Xie, Chen Qian, Deke Guo, Minmei Wang, Ge Wang, Honghui Chen',
+              venue: 'IEEE/ACM Transactions on Networking (TON), 2022',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/ton_coin.pdf' }]
+            }
+          ]
+        },
+        {
+          year: '2021',
+          papers: [
+            {
+              title: 'HDS: A Fast Hybrid Data Location Service for Hierarchical Mobile Edge Computing',
+              authors: 'Deke Guo, Junjie Xie, Xiaofeng Shi, Haofan Cai, Chen Qian, Honghui Chen',
+              venue: 'IEEE/ACM Transactions on Networking (TON), 2021',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/TON_HDSS.pdf' }]
+            },
+            {
+              title: 'MCFsyn: A Multi-party Set Reconciliation Protocol with the Marked Cuckoo Filter',
+              authors: 'Lailong Luo, Deke Guo, Yawei Zhao, Ori Rottenstreich, Richard T. B. Ma, Xueshan Luo',
+              venue: 'IEEE Transactions on Parallel and Distributed Systems (TPDS), 2021',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/MCFsyn.pdf' }]
+            },
+            {
+              title: 'A Capacity-elastic Cuckoo Filter Design for Dynamic Set Representation',
+              authors: 'Lailong Luo, Deke Guo, Ori Rottenstreich, Richard T. B. Ma, Xueshan Luo, Bangbang Ren',
+              venue: 'IEEE Transactions on Network and Service Management (TNSM), 2021',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/tnsm_lailong.pdf' }]
+            }
+          ]
+        },
+        {
+          year: '2019',
+          papers: [
+            {
+              title: 'Validation of Distributed SDN Control Plane Under Uncertain Failures',
+              authors: 'Junjie Xie, Deke Guo, Chen Qian',
+              venue: 'IEEE/ACM Transactions on Networking (TON), 2019',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/Ton_RobustValidation.pdf' }]
+            },
+            {
+              title: 'Embedding Service Function Tree with Minimum Cost for NFV Enabled Multicast',
+              authors: 'Bangbang Ren, Deke Guo, Yulong Shen, Guoming Tang, Xu Lin',
+              venue: 'IEEE Journal on Selected Areas in Communications (JSAC), 2019',
+              links: [{ label: 'PDF', url: 'https://dekeguo.github.io/JSAC_NFV.pdf' }]
+            }
+          ]
+        }
       ]
     },
     research: {
@@ -579,6 +695,29 @@ function setList(selector, items, renderItem) {
   if (node) {
     node.innerHTML = items.map(renderItem).join('');
   }
+}
+
+function renderPublications(publications) {
+  const list = document.querySelector('#publications-view .publication-list');
+  if (!list) {
+    return;
+  }
+
+  list.innerHTML = publications.years.map(({ year, papers }) => `
+    <section class="paper-year">
+      <h2>${year}</h2>
+      ${papers.map((paper) => `
+        <article class="paper">
+          <h3>${paper.title}</h3>
+          <p class="paper-authors">${paper.authors}</p>
+          <p class="paper-venue">${paper.venue}</p>
+          <div class="paper-links">
+            ${paper.links.map((link) => `<a href="${link.url}" target="_blank" rel="noopener">${link.label}</a>`).join('')}
+          </div>
+        </article>
+      `).join('')}
+    </section>
+  `).join('');
 }
 
 function renderTeam(people) {
@@ -704,11 +843,7 @@ function renderLanguage() {
 
   setText('#publications-view h1', copy.publications.title);
   setText('#publications-view .page-lead', copy.publications.lead);
-  document.querySelectorAll('#publications-view .paper').forEach((paper, index) => {
-    const [title, meta] = copy.publications.papers[index];
-    paper.querySelector('h3').textContent = title;
-    paper.querySelector('p').innerHTML = `<strong>${meta.split('。')[0].split('. ')[0]}</strong>${currentLanguage === 'zh' ? '。' : '. '} ${meta.replace(meta.split('。')[0] + '。', '').replace(meta.split('. ')[0] + '. ', '')}`;
-  });
+  renderPublications(copy.publications);
 
   setText('#research-view h1', copy.research.title);
   setText('#research-view .page-lead', copy.research.lead);

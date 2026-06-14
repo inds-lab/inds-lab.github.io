@@ -476,8 +476,12 @@ time {
   margin-top: 30px;
 }
 
+.publication-list {
+  margin-top: 28px;
+}
+
 .paper {
-  padding: 14px 0;
+  padding: 18px 0;
   border-bottom: 1px solid var(--line);
 }
 
@@ -485,11 +489,42 @@ time {
   margin: 0 0 6px;
   color: var(--ink);
   font-size: 17px;
+  line-height: 1.45;
 }
 
 .paper p {
-  margin: 0;
+  margin: 0 0 5px;
   color: var(--muted);
+}
+
+.paper-authors {
+  color: var(--ink);
+}
+
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.paper-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 3px 10px;
+  border: 1px solid var(--blue);
+  border-radius: 3px;
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.paper-links a:hover,
+.paper-links a:focus {
+  background: var(--blue);
+  color: #fff;
+  text-decoration: none;
 }
 
 .topic-grid {
