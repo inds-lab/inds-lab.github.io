@@ -625,6 +625,11 @@ function renderTeam(people) {
 }
 
 function openProfile(person) {
+  if (person.id === 'deke-guo') {
+    window.location.href = 'https://dekeguo.github.io/';
+    return;
+  }
+
   window.location.href = `people/${encodeURIComponent(person.id)}/?lang=${currentLanguage}`;
 }
 
