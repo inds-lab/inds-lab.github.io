@@ -110,8 +110,8 @@ a:focus {
 }
 
 .page {
-  width: min(1180px, calc(100% - 32px));
-  margin: 28px auto 42px;
+  width: min(970px, calc(100% - 32px));
+  margin: 36px auto 46px;
 }
 
 .view {
@@ -120,6 +120,12 @@ a:focus {
 
 .view.active {
   display: block;
+}
+
+.view,
+.subpage,
+.team-page {
+  scroll-margin-top: 76px;
 }
 
 .intro h1 {
@@ -297,8 +303,8 @@ time {
 }
 
 .page-lead {
-  max-width: 1040px;
-  margin: 0 0 28px;
+  max-width: 900px;
+  margin: 0 0 36px;
 }
 
 :lang(zh-CN) .page-lead,
@@ -324,8 +330,6 @@ time {
 
 .team-section {
   margin-top: 38px;
-  border-top: 1px solid var(--line);
-  padding-top: 14px;
 }
 
 .faculty-list {
@@ -681,9 +685,7 @@ time {
 }
 
 .profile-section {
-  margin-top: 30px;
-  border-top: 1px solid var(--line);
-  padding-top: 14px;
+  margin-top: 34px;
 }
 
 .profile-section h2 {
