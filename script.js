@@ -604,6 +604,7 @@ function renderTeam(people) {
           <h3>${person.name}</h3>
           <p>${person.role}</p>
           <p>${person.summary}</p>
+          ${person.id === 'deke-guo' ? `<a class="profile-link" href="https://dekeguo.github.io/">${currentLanguage === 'zh' ? '个人主页' : 'Homepage'}</a>` : ''}
         </div>
       `
       : `
@@ -619,6 +620,13 @@ function renderTeam(people) {
         openProfile(person);
       }
     });
+
+    const profileLink = card.querySelector('.profile-link');
+    if (profileLink) {
+      profileLink.addEventListener('click', (event) => {
+        event.stopPropagation();
+      });
+    }
 
     groups[person.group].appendChild(card);
   });

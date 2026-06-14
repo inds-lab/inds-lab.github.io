@@ -366,6 +366,24 @@ time {
   font-size: 14px;
 }
 
+.profile-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 12px;
+  border: 1px solid var(--blue);
+  border-radius: 999px;
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.profile-link:hover,
+.profile-link:focus {
+  background: var(--blue);
+  color: #fff;
+  text-decoration: none;
+}
+
 .person-grid {
   display: grid;
   grid-template-columns: repeat(4, 160px);
