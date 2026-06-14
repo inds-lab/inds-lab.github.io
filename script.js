@@ -413,7 +413,7 @@ const content = {
           summary: '中山大学二级教授、博士生导师，研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化。',
           bio: '郭得科，中山大学二级教授、博士生导师。公开简介显示，其研究方向包括计算机网络、分布式计算系统、边缘计算、算力网和大模型系统优化；发表中英文学术论文 300 余篇，其中 CCF 推荐 A/B 类论文 150 余篇、ACM/IEEE Transactions 文章 90 余篇；获得 IEEE ICNP 2019 最佳论文；以第一完成人出版学术专著 4 部，以第一发明人获得中国和美国授权发明专利 70 余项。',
           interests: ['计算机网络', '分布式计算系统', '边缘计算', '算力网', '大模型系统优化'],
-          work: ['国家级领军人才、国家级青年人才', '国家自然科学基金优秀青年基金获得者', '2020年CCF-IEEE CS 青年科学家奖', '2023年CCF 自然科学二等奖，排名第一', 'IEEE ICNP 2019 最佳论文']
+          work: ['国家级领军人才、国家级青年人才', '国家自然科学基金优秀青年基金获得者', '2020年 CCF-IEEE CS 青年科学家奖', '2023年 CCF 自然科学二等奖，排名第一', 'IEEE ICNP 2019 最佳论文']
         },
         {
           id: 'guocong-quan',
@@ -823,8 +823,7 @@ function renderLanguage() {
   });
   setText('.news h2', copy.home.newsTitle);
   setList('.news ul', copy.home.news, ([date, text]) => {
-    const gap = currentLanguage === 'zh' ? '' : ' ';
-    return `<li><time>${date}</time>${gap}${text}</li>`;
+    return `<li><time>${date}</time> ${text}</li>`;
   });
   setText('.more-link', copy.home.moreNews);
   const moreNewsLink = document.querySelector('.more-link');
