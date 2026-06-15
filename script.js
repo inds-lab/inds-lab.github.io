@@ -828,7 +828,7 @@ function renderLanguage() {
   setText('.more-link', copy.home.moreNews);
   const moreNewsLink = document.querySelector('.more-link');
   if (moreNewsLink) {
-    moreNewsLink.href = '/news/';
+    moreNewsLink.href = `/news/?lang=${currentLanguage}`;
   }
   setText('.research-list h2', copy.home.researchTitle);
   setList('.research-list ul', copy.home.researchItems, (item) => `<li>${item}</li>`);
